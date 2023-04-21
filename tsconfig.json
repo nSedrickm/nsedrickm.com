@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -20,7 +21,9 @@
       }
     ],
     "paths": {
-      "components/* projects/* images/* ": ["./src/*"]
+      "components/*": ["./src/app/components/*"],
+      "components": ["./src/app/components"],
+      "images/*": ["./src/app/images/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
