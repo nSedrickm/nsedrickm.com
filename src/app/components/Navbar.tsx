@@ -49,9 +49,12 @@ export const Navbar = () => {
       </ul>
 
       <div className="flex items-center gap-2 sm:gap-4">
-        <button className="p-2 font-bold text-black transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110">
+        <Link
+          href="/contact"
+          className="p-2 font-bold text-black transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110"
+        >
           Hire Me!
-        </button>
+        </Link>
         <button
           className="transition duration-300 ease-in-out delay-150 appearance-none lg:hidden hover:-translate-y-1 hover:scale-110"
           onClick={() => setOpen(!open)}

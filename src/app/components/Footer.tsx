@@ -10,28 +10,28 @@ export const Footer = () => {
         <p className="">For any queries, please feel free to contact me</p>
         <div className="flex col-span-1 gap-8 jitems-center">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/ngwa-sedrick-meh/"
             target="_blank"
             className="p-4 transition duration-300 ease-in-out delay-150 hover:scale-125"
           >
             <Linkedin />
           </a>
           <a
-            href="#"
+            href="https://twitter.com/nsedrickm"
             target="_blank"
             className="p-4 transition duration-300 ease-in-out delay-150 hover:scale-125"
           >
             <Twitter />
           </a>
           <a
-            href="#"
+            href="https://github.com/nsedrickm"
             target="_blank"
             className="p-4 transition duration-300 ease-in-out delay-150 hover:scale-125"
           >
-            <Github color="white" />
+            <Github />
           </a>
           <a
-            href="#"
+            href="https://web.facebook.com/nsedfalj"
             target="_blank"
             className="p-4 transition duration-300 ease-in-out delay-150 hover:scale-125"
           >
