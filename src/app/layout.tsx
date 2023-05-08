@@ -5,6 +5,13 @@ export const metadata = {
   title: "Ngwa Sedrick Meh",
   description:
     "Professional Software Engineer, Crafting amazing solutions for businesses",
+  icons: {
+    icon: {
+      url: "/favicon.png",
+      type: "image/png",
+    },
+    shortcut: { url: "/favicon.png", type: "image/png" },
+  },
 };
 
 export default function RootLayout({
@@ -13,11 +20,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body>
-        <div className="grid min-h-screen grid-flow-row grid-rows-3 auto-rows-fr">
+        <div className="flex flex-col min-h-screen text-white bg-black">
           <Navbar />
-          <main className="row-auto">{children}</main>
+          <main className="flex-1">{children}</main>
           <Footer />
         </div>
       </body>

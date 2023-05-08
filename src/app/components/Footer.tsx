@@ -1,33 +1,48 @@
 import { Facebook, Github, Linkedin, Twitter } from "lucide-react";
+import { Logo } from "./Logo";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <footer className="grid grid-cols-2 row-auto gap-4">
-      <div className="col-span-1 px-8">
-        <p className="my-8 text-4xl">Logo</p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
-          necessitatibus quae enim, dolorem fugiat, minus quos delectus hic,
-          distinctio perspiciatis eligendi
-        </p>
-      </div>
-      <div className="flex items-center justify-center col-span-1 px-8">
-        <p className="font-sans text-4xl font-bold">
-          For any queries, please feel free to contact me
-        </p>
-      </div>
-
-      <div className="flex items-center justify-between h-20 col-span-2 px-8 mt-auto bg-blue-700">
-        <p className="text-lg text-white">
-          © 2021 nsedrickm all rights reserved
-        </p>
-        <div className="flex gap-8 jitems-center">
-          <Linkedin />
-          <Twitter />
-          <Github />
-          <Facebook />
+    <footer className="text-center bg-gradient-to-b from-gray-500/20 to-black backdrop-blur">
+      <div className="flex flex-col flex-wrap items-center gap-8 p-4 md:p-8">
+        <Logo />
+        <p className="">For any queries, please feel free to contact me</p>
+        <div className="flex col-span-1 gap-8 jitems-center">
+          <a
+            href="#"
+            target="_blank"
+            className="p-4 transition duration-300 ease-in-out delay-150 hover:scale-125"
+          >
+            <Linkedin />
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            className="p-4 transition duration-300 ease-in-out delay-150 hover:scale-125"
+          >
+            <Twitter />
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            className="p-4 transition duration-300 ease-in-out delay-150 hover:scale-125"
+          >
+            <Github color="white" />
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            className="p-4 transition duration-300 ease-in-out delay-150 hover:scale-125"
+          >
+            <Facebook />
+          </a>
         </div>
       </div>
+
+      <p className="self-stretch p-4 text-white bg-blue-700">
+        © 2023 nsedrickm all rights reserved
+      </p>
     </footer>
   );
 };
