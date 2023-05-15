@@ -1,12 +1,13 @@
 "use client";
-import { useState } from "react";
 
+import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import clsx from "clsx";
 import { Menu, X } from "lucide-react";
 import { Logo } from "./Logo";
+import { useScroll } from "hooks/useScroll";
 
 const links = [
   { label: "Home", href: "/" },
@@ -18,12 +19,14 @@ const links = [
 
 export const Navbar = () => {
   const pathname = usePathname();
+  const isScrolled = useScroll();
   const [open, setOpen] = useState(false);
 
   return (
     <nav
       className={clsx(
-        "z-40 flex gap-4 items-center flex-wrap justify-between text-lg px-2 py-4 lg:py-0 sm:px-8 bg-black/60 backdrop-blur sticky top-0 transition duration-300 ease-in-out delay-150"
+        "z-40 flex gap-4 items-center flex-wrap justify-between text-lg px-2 py-4 lg:py-0 sm:px-8 sticky top-0 transform transition-all duration-600 ease-in-out delay-150",
+        isScrolled ? "backdrop-blur bg-black/40" : "lg:-mb-44"
       )}
     >
       <Logo />
@@ -31,7 +34,7 @@ export const Navbar = () => {
         {links.map((link, index) => {
           const isActive = link.href === pathname;
           return (
-            <li key={index} className="h-36">
+            <li key={index} className={clsx(isScrolled ? "h-20" : "h-36")}>
               <Link
                 href={link.href}
                 className={clsx(

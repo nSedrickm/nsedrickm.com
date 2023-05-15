@@ -6,6 +6,7 @@ import {
   FileCode,
   CloudCog,
   Paintbrush,
+  ChevronRight,
   LayoutDashboard,
 } from "lucide-react";
 import { ReactOriginal } from "devicons-react";
@@ -62,13 +63,21 @@ const Home = () => {
     <div className="grid grid-cols-2 gap-8">
       <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
         <div className="flex flex-col self-center flex-1 gap-8 px-4 pt-20 lg:p-24">
-          <span className="text-5xl font-extrabold tracking-wide md:text-6xl lg:text-7xl">
+          <span className="text-5xl font-extrabold tracking-wide md:text-6xl">
             Welcome!
           </span>
-          <p className="text-2xl font-light leading-tight md:text-5xl lg:text-6xl">
+          <p className="text-2xl font-light leading-tight md:text-5xl">
             My name is <strong className="font-semibold">Sedrick</strong> and I
             build and maintain web applications
           </p>
+
+          <a
+            href="#services"
+            className="flex items-center self-start justify-center gap-2 py-4 text-2xl text-white transition duration-300 ease-in-out delay-150 border-b border-white group"
+          >
+            <span>Learn more</span>
+            <ChevronRight className="group-hover:rotate-90" />
+          </a>
         </div>
         <div className="relative flex-1">
           <Image
@@ -78,7 +87,10 @@ const Home = () => {
           />
         </div>
       </header>
-      <section className="max-w-full p-4 mb-10 prose lg:text-center lg:p-40 col-span-full prose-invert">
+      <section
+        id="services"
+        className="max-w-full min-h-screen p-4 mb-10 prose lg:text-center lg:p-40 col-span-full prose-invert"
+      >
         <h2 className="mb-8 text-4xl font-bold md:text-5xl">Services</h2>
         <p className="">
           From custom web development to deployments and large codebase
@@ -92,7 +104,7 @@ const Home = () => {
             <div
               key={index}
               className={clsx(
-                "p-8 md:h-80 group flex flex-col items-start justify-end hover:h-auto transform transition-all duration-600 ease-in-out rounded-md delay-150 hover:border-b-8 hover:justify-center bg-gradient-to-br from-black to-gray-500/25 md:p-8 shadow-3xl",
+                "p-8 md:h-80 group flex flex-col items-start justify-end hover:h-auto transform transition-all duration-600 ease-in-out rounded-md delay-150 hover:border-b-8 hover:justify-center bg-gradient-to-br from-black to-gray-500/25 hover:to-black hover:from-gray-500/25 md:p-8 shadow-3xl",
                 service.border
               )}
             >
