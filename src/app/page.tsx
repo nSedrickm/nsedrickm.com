@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import headerBg from "images/header-background.png";
@@ -19,6 +20,7 @@ const services: Record<string, any>[] = [
     icon: <ReactOriginal size={56} />,
     desc: "I can help you build stunning React Applications that will WOW your users. These includes data heavy applications like admin and user dashboards, back offices, SPAs and so much more",
     border: "border-sky-400",
+    text: "text-sky-400",
   },
   {
     tag: "consultation",
@@ -26,6 +28,7 @@ const services: Record<string, any>[] = [
     icon: <FileCode size={52} className="text-amber-500" />,
     desc: "Looking to start a new project but don't have all the details dialed in yet? Join me on a call and we'll sort it out together",
     border: "border-amber-500",
+    text: "text-amber-500",
   },
 
   {
@@ -34,6 +37,7 @@ const services: Record<string, any>[] = [
     icon: <Users size={52} className="text-red-500" />,
     desc: "Sometimes you get stuck and just need a guide to help you figure out and resolve code bugs. I love these sessions",
     border: "border-red-500",
+    text: "text-red-500",
   },
   {
     tag: "feature-customization",
@@ -41,6 +45,7 @@ const services: Record<string, any>[] = [
     icon: <Paintbrush size={52} className="text-green-500" />,
     desc: "Need a new feature added to your app/website or just bought a new theme/template from themeforest and need it customized for your brand? I'm the man for the job",
     border: "border-green-500",
+    text: "text-green-500",
   },
   {
     tag: "web-dev",
@@ -48,6 +53,7 @@ const services: Record<string, any>[] = [
     icon: <LayoutDashboard size={52} className="text-indigo-500" />,
     desc: "Need a professional website for your business, event or community. Theres a thousand ways to build a website but I can make one thats just right for you",
     border: "border-indigo-500",
+    text: "text-indigo-500",
   },
   {
     tag: "hosting-deployments",
@@ -55,6 +61,7 @@ const services: Record<string, any>[] = [
     icon: <CloudCog size={52} className="text-blue-700" />,
     desc: "Setting up apps and websites can be a real pain. Choosing the best hosting service, setting up a domain name, configuring a cloud service and so much more. Let me handle all that for you",
     border: "border-blue-700",
+    text: "text-blue-700",
   },
 ];
 
@@ -63,21 +70,22 @@ const Home = () => {
     <div className="grid grid-cols-2 gap-8">
       <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
         <div className="flex flex-col self-center flex-1 gap-8 px-4 pt-20 lg:p-24">
-          <span className="text-5xl font-extrabold tracking-wide md:text-6xl">
+          <h1 className="text-5xl font-extrabold tracking-wide md:text-6xl">
             Welcome!
-          </span>
-          <p className="text-2xl font-light leading-tight md:text-5xl">
+          </h1>
+          <p className="text-2xl font-light leading-normal md:text-5xl">
             My name is <strong className="font-semibold">Sedrick</strong> and I
             build and maintain web applications
           </p>
 
-          <a
+          <Link
+            scroll
             href="#services"
             className="flex items-center self-start justify-center gap-2 py-4 text-2xl text-white transition duration-300 ease-in-out delay-150 border-b border-white group"
           >
             <span>Learn more</span>
             <ChevronRight className="group-hover:rotate-90" />
-          </a>
+          </Link>
         </div>
         <div className="relative flex-1">
           <Image
@@ -89,7 +97,7 @@ const Home = () => {
       </header>
       <section
         id="services"
-        className="max-w-full min-h-screen p-4 mb-10 prose lg:text-center lg:p-40 col-span-full prose-invert"
+        className="max-w-full min-h-screen p-4 mb-10 prose scroll-mt-20 md:scroll-mt-5 lg:text-center lg:p-40 col-span-full prose-invert"
       >
         <h2 className="mb-8 text-4xl font-bold md:text-5xl">Services</h2>
         <p className="">
@@ -116,9 +124,13 @@ const Home = () => {
 
               <Link
                 href={`/contact?service=${service.tag}&subject=${service.name}`}
-                className="hidden p-4 font-bold text-black no-underline transition ease-in-out delay-150 bg-white rounded-md group-hover:block hover:-translate-y-1 hover:scale-110"
+                className={clsx(
+                  "items-center hidden font-semibold gap-2 text-lg no-underline transition duration-300 ease-in-out delay-150 group-hover:flex group",
+                  service.text
+                )}
               >
-                Get In Touch
+                <span>Get In Touch</span>
+                <ChevronRight className="hover:rotate-90" />
               </Link>
             </div>
           ))}

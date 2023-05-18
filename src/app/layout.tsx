@@ -1,5 +1,8 @@
 import { Navbar, Footer } from "components";
+import { Inter } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Ngwa Sedrick Meh",
@@ -21,8 +24,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body>
-        <div className="flex flex-col min-h-screen text-white bg-black">
+      <body className={inter.className}>
+        <div className="flex flex-col min-h-screen text-lg text-white bg-black">
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
