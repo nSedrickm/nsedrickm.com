@@ -81,10 +81,10 @@ const Home = () => {
           <Link
             scroll
             href="#services"
-            className="flex items-center self-start justify-center gap-2 py-4 text-2xl text-white transition duration-300 ease-in-out delay-150 border-b border-white group"
+            className="flex items-center self-start justify-center gap-2 py-4 text-xl text-white transition duration-300 ease-in-out delay-150 border-b border-white md:text-2xl group"
           >
             <span>Learn more</span>
-            <ChevronRight className="group-hover:rotate-90" />
+            <ChevronRight />
           </Link>
         </div>
         <div className="relative flex-1">
@@ -100,7 +100,7 @@ const Home = () => {
         className="max-w-full min-h-screen p-4 mb-10 prose scroll-mt-20 md:scroll-mt-5 lg:text-center lg:p-40 col-span-full prose-invert"
       >
         <h2 className="mb-8 text-4xl font-bold md:text-5xl">Services</h2>
-        <p className="">
+        <p className="text-lg">
           From custom web development to deployments and large codebase
           migrations, here are some of the services I can offer you today. You
           can also contact me to discuss custom solutions for your specific
@@ -112,7 +112,7 @@ const Home = () => {
             <div
               key={index}
               className={clsx(
-                "p-8 md:h-80 group flex flex-col items-start justify-end hover:h-auto transform transition-all duration-600 ease-in-out rounded-md delay-150 hover:border-b-8 hover:justify-center bg-gradient-to-br from-black to-gray-500/25 hover:to-black hover:from-gray-500/25 md:p-8 shadow-3xl",
+                "p-8 md:h-80 group flex flex-col items-start justify-end hover:h-auto transform transition-all duration-600 ease-in-out rounded-md delay-150 hover:border-b-8 hover:justify-center bg-gradient-to-br from-black via-gray-800/25 to-gray-500/25 hover:to-black hover:from-gray-500/25 md:p-8 shadow-3xl",
                 service.border
               )}
             >
