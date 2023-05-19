@@ -7,5 +7,9 @@ function subscribe(callback: any) {
 }
 
 export const useScroll = () => {
-  return useSyncExternalStore<boolean>(subscribe, () => window.scrollY > 100);
+  return useSyncExternalStore<boolean>(
+    subscribe,
+    () => window.scrollY > 100,
+    () => false
+  );
 };

@@ -48,10 +48,7 @@ const About = () => {
         </div>
       </header>
 
-      <section
-        id="services"
-        className="max-w-full min-h-screen p-4 mb-10 prose scroll-mt-20 md:scroll-mt-5 lg:text-center col-span-full prose-invert"
-      >
+      <section className="max-w-full p-4 mb-10 prose scroll-mt-20 md:scroll-mt-5 lg:text-center col-span-full prose-invert">
         <h2 className="mb-8 text-4xl font-bold">Technologies</h2>
         <p className="text-lg">
           Some of my tools, coupled with the ability to learn new ones on the
