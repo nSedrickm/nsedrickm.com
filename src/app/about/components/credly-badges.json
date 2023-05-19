@@ -1,0 +1,1680 @@
+{
+  "data": [
+    {
+      "id": "524dc186-6b83-4898-9074-6143e957ad3a",
+      "expires_at_date": null,
+      "issued_at_date": "2021-01-15",
+      "issued_to": "Ngwa Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2021-01-15T16:35:28.765+01:00",
+      "expires_at": null,
+      "issued_at": "2021-01-15T16:35:28.000+01:00",
+      "last_updated_at": "2021-01-15T16:35:28.783+01:00",
+      "updated_at": "2021-01-15T16:35:28.783+01:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by IBM",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "name": "IBM",
+              "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "vanity_url": "https://www.credly.com/org/ibm",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": false,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "9995af49-23f1-4ef1-bec7-4778f654ea75",
+        "cost": "Free",
+        "description": "This badge earner demonstrates knowledge about building user interfaces with IBM's open-source Carbon Design System React components. This badge earner demonstrates the ability to install Carbon React components in their project, use and populate these components with data, build custom components, and deploy a project to IBM Cloud.",
+        "global_activity_url": "https://ibm-learning-skills-dev.github.io/badges/IBM_Carbon_Design_System.html",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": "Foundational",
+        "name": "IBM Carbon Design System Developer Essentials - React",
+        "vanity_slug": "ibm-carbon-design-system-developer-essentials-react",
+        "time_to_earn": "Hours",
+        "type_category": "Validation",
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "bbfad3d3-eeb7-44be-b79a-4839114b1a77",
+          "url": "https://images.credly.com/images/bbfad3d3-eeb7-44be-b79a-4839114b1a77/image.png"
+        },
+        "image_url": "https://images.credly.com/images/bbfad3d3-eeb7-44be-b79a-4839114b1a77/image.png",
+        "url": "https://www.credly.com/org/ibm/badge/ibm-carbon-design-system-developer-essentials-react",
+        "issuer": {
+          "summary": "issued by IBM",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "name": "IBM",
+                "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "vanity_url": "https://www.credly.com/org/ibm",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": false,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "983217f3-3dda-4172-914f-a5e1dc9d6e96",
+            "activity_type": "Course",
+            "required_badge_template_id": null,
+            "title": "Completion of all steps of the Carbon React tutorial, including submission and approval of a Pull Request for each step.",
+            "url": "https://www.carbondesignsystem.com/tutorial/react/overview"
+          },
+          {
+            "id": "3428fe03-b0e4-46eb-acb6-e09aa6267ac0",
+            "activity_type": "Other",
+            "required_badge_template_id": null,
+            "title": "For questions related to this badge or course, contact Matt Rosno (matt.rosno@ibm.com).",
+            "url": null
+          },
+          {
+            "id": "5b847998-d351-4dbc-8e4c-c66a6d20bf29",
+            "activity_type": "Other",
+            "required_badge_template_id": null,
+            "title": "This badge is retired and no longer available.",
+            "url": null
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "32787fa1-6b11-4a93-8701-c6447d34ebbb",
+            "name": "Carbon Design System",
+            "vanity_slug": "carbon-design-system"
+          },
+          {
+            "id": "a7e324a9-4232-45d5-82d3-048ae18f9c54",
+            "name": "Design System",
+            "vanity_slug": "design-system"
+          },
+          {
+            "id": "9a95c6ae-9db6-47c4-9ab0-f6be143e73ed",
+            "name": "Frontend Development",
+            "vanity_slug": "frontend-development"
+          },
+          {
+            "id": "1d16a2dd-79ad-4f90-a513-744917324e71",
+            "name": "IBM Design",
+            "vanity_slug": "ibm-design"
+          },
+          {
+            "id": "d370d103-2ef7-46b3-896d-f03b51266a16",
+            "name": "IBM Design System",
+            "vanity_slug": "ibm-design-system"
+          },
+          {
+            "id": "4beec4e4-db63-4955-8d61-4f023b8fe4c3",
+            "name": "React Components",
+            "vanity_slug": "react-components"
+          },
+          {
+            "id": "4831f102-e280-4de2-a945-f990f76ed82a",
+            "name": "ReactJS",
+            "vanity_slug": "reactjs"
+          },
+          {
+            "id": "09dbf01e-bae5-4a24-8fe1-82267b25ed31",
+            "name": "UI Development",
+            "vanity_slug": "ui-development"
+          }
+        ]
+      },
+      "image": {
+        "id": "bbfad3d3-eeb7-44be-b79a-4839114b1a77",
+        "url": "https://images.credly.com/images/bbfad3d3-eeb7-44be-b79a-4839114b1a77/image.png"
+      },
+      "image_url": "https://images.credly.com/images/bbfad3d3-eeb7-44be-b79a-4839114b1a77/image.png",
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "96b7c777-cd12-497a-af8f-f27da40c6579",
+      "expires_at_date": null,
+      "issued_at_date": "2021-04-09",
+      "issued_to": "Ngwa Sedrick Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2021-04-09T21:34:36.913+02:00",
+      "expires_at": null,
+      "issued_at": "2021-04-09T14:34:36.000+02:00",
+      "last_updated_at": "2021-04-09T21:34:36.935+02:00",
+      "updated_at": "2021-04-09T21:34:36.935+02:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by IBM",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "name": "IBM",
+              "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "vanity_url": "https://www.credly.com/org/ibm",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": false,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "76f52504-1dd3-4f91-bea9-7bdf9fa163f0",
+        "cost": "Free",
+        "description": "This badge earner can solve advanced mainframe problems by thinking critically and applying information from a wide variety of sources. They have orchestrated system activities using Ansible and Zowe, while working in Docker containerized environments. The earner has also demonstrated key mainframe skills, including REXX , COBOL, VSAM, TSO, and DFSMS commands.",
+        "global_activity_url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe-badges",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": "Advanced",
+        "name": "Master the Mainframe 2020 - Level 3",
+        "vanity_slug": "master-the-mainframe-2020-level-3",
+        "time_to_earn": "Days",
+        "type_category": "Learning",
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "0f804e77-5da0-40b2-b343-f6ea58c48f9d",
+          "url": "https://images.credly.com/images/0f804e77-5da0-40b2-b343-f6ea58c48f9d/MTM_Level_3.png"
+        },
+        "image_url": "https://images.credly.com/images/0f804e77-5da0-40b2-b343-f6ea58c48f9d/MTM_Level_3.png",
+        "url": "https://www.credly.com/org/ibm/badge/master-the-mainframe-2020-level-3",
+        "issuer": {
+          "summary": "issued by IBM",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "name": "IBM",
+                "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "vanity_url": "https://www.credly.com/org/ibm",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": false,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "f4d986e8-37f8-4ace-be84-54167f6d3d7a",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Complete Level 2 of Master the Mainframe 2020.",
+            "url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe"
+          },
+          {
+            "id": "6699a476-245a-4af2-a564-09286ad03d3f",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Complete Level 3 of Master the Mainframe 2020.",
+            "url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe"
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "407a4e83-8ddd-4605-9509-51b4e6e2dbd4",
+            "name": "Ansible",
+            "vanity_slug": "ansible"
+          },
+          {
+            "id": "d8f7047c-2519-48e9-a726-cee7c8abd743",
+            "name": "COBOL",
+            "vanity_slug": "cobol"
+          },
+          {
+            "id": "19286b6c-1c31-4a4e-bad6-785931071ce1",
+            "name": "DFSMS",
+            "vanity_slug": "dfsms"
+          },
+          {
+            "id": "99e60604-2f4e-4e8d-af94-30fed3f18b5c",
+            "name": "Docker",
+            "vanity_slug": "docker"
+          },
+          {
+            "id": "a5b12014-e9b6-4491-8b25-5436c0db7f15",
+            "name": "REXX",
+            "vanity_slug": "rexx"
+          },
+          {
+            "id": "16858fe6-3cc2-47fd-84c1-d2e5dea2eeac",
+            "name": "Systems Programmer",
+            "vanity_slug": "systems-programmer"
+          },
+          {
+            "id": "676e2366-afe7-4145-a228-b16e615231de",
+            "name": "TSO",
+            "vanity_slug": "tso"
+          },
+          {
+            "id": "0c9f5e60-2e8a-493c-b756-42e9e90ba4ac",
+            "name": "VSAM",
+            "vanity_slug": "vsam"
+          },
+          {
+            "id": "f5bcae5c-d62f-4595-af49-db0e63b1fb64",
+            "name": "YAML",
+            "vanity_slug": "yaml"
+          }
+        ]
+      },
+      "image": {
+        "id": "0f804e77-5da0-40b2-b343-f6ea58c48f9d",
+        "url": "https://images.credly.com/images/0f804e77-5da0-40b2-b343-f6ea58c48f9d/MTM_Level_3.png"
+      },
+      "image_url": "https://images.credly.com/images/0f804e77-5da0-40b2-b343-f6ea58c48f9d/MTM_Level_3.png",
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "cb011d3c-ffe2-4f28-8547-d5bd801f16e4",
+      "expires_at_date": null,
+      "issued_at_date": "2016-03-03",
+      "issued_to": "Ngwa Sedrick Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2016-03-10T19:56:49.862+01:00",
+      "expires_at": null,
+      "issued_at": "2016-03-03T16:05:01.000+01:00",
+      "last_updated_at": "2016-03-10T19:56:49.862+01:00",
+      "updated_at": "2016-03-10T19:56:49.866+01:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by Certiport",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "e3cf6b4e-7d68-45e5-a9ae-b95d20f7cefd",
+              "name": "Certiport",
+              "url": "https://www.credly.com/api/v1/organizations/e3cf6b4e-7d68-45e5-a9ae-b95d20f7cefd",
+              "vanity_url": "https://www.credly.com/org/certiport",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": true,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "556a204b-fe57-4681-8438-997468b1b3e4",
+        "cost": null,
+        "description": "The Computing Fundamentals examination covers a foundational understanding of computer hardware, software, operating systems, peripherals, and troubleshooting. It is designed to help you maximize the value and benefits of using computer technology.",
+        "global_activity_url": "http://www.certiport.com/portal/common/documentlibrary/IC3_GS4_Computing_Fundamentals.pdf",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": null,
+        "name": "Computing Fundamentals",
+        "vanity_slug": "computing-fundamentals",
+        "time_to_earn": null,
+        "type_category": null,
+        "show_badge_lmi": false,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "bf8594c5-1e2d-4e5b-ab28-09c46bd755a3",
+          "url": "https://images.credly.com/images/bf8594c5-1e2d-4e5b-ab28-09c46bd755a3/IC3_computing_fundamentals.png"
+        },
+        "image_url": "https://images.credly.com/images/bf8594c5-1e2d-4e5b-ab28-09c46bd755a3/IC3_computing_fundamentals.png",
+        "url": "https://www.credly.com/org/certiport/badge/computing-fundamentals",
+        "issuer": {
+          "summary": "issued by Certiport",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "e3cf6b4e-7d68-45e5-a9ae-b95d20f7cefd",
+                "name": "Certiport",
+                "url": "https://www.credly.com/api/v1/organizations/e3cf6b4e-7d68-45e5-a9ae-b95d20f7cefd",
+                "vanity_url": "https://www.credly.com/org/certiport",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": true,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "9386d15d-b6e6-4f5e-a73b-a4cd41093c67",
+            "activity_type": "Application",
+            "required_badge_template_id": null,
+            "title": "Identify types of computers, how they process information, and the purpose and function of different hardware components",
+            "url": null
+          },
+          {
+            "id": "cffb2ce3-5486-46de-9c53-107adfa1929d",
+            "activity_type": "Application",
+            "required_badge_template_id": null,
+            "title": "Identify how to maintain computer equipment and solve common problems relating to computer hardware",
+            "url": null
+          },
+          {
+            "id": "aa7495a4-4b35-44de-bf12-2fcb9004fb74",
+            "activity_type": "Application",
+            "required_badge_template_id": null,
+            "title": "Identify how software and hardware work together to perform computing tasks and how software is distributed and upgraded",
+            "url": null
+          },
+          {
+            "id": "e9f484ee-7bf4-444e-9419-218628d5d7da",
+            "activity_type": "Application",
+            "required_badge_template_id": null,
+            "title": "Identify different types of application software and general concepts relating to application software categories",
+            "url": null
+          },
+          {
+            "id": "82f16849-931d-4775-acbd-a074894f37d0",
+            "activity_type": "Application",
+            "required_badge_template_id": null,
+            "title": "Identify what an operating system is and how it works, and solve common problems related to operating systems",
+            "url": null
+          },
+          {
+            "id": "28f2868d-2c33-4484-84de-4921e3e63909",
+            "activity_type": "Application",
+            "required_badge_template_id": null,
+            "title": "Use an operating system to manipulate a computer’s desktop, files and disks, change system settings, and install and remove software.",
+            "url": null
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "15899d8a-079c-473d-9928-a914701f538d",
+            "name": "Computing",
+            "vanity_slug": "computing"
+          },
+          {
+            "id": "bd16833d-ea44-4fe3-8c1b-a48a0b6b043a",
+            "name": "Fundamentals",
+            "vanity_slug": "fundamentals"
+          },
+          {
+            "id": "3edef4fe-fe46-4266-a9e6-0c57f5189b49",
+            "name": "Hardware",
+            "vanity_slug": "hardware"
+          },
+          {
+            "id": "84c56a5f-4a35-440c-8d3f-2292cc267b70",
+            "name": "Install",
+            "vanity_slug": "install"
+          },
+          {
+            "id": "f6681515-8e58-4d21-8e3f-c8da2c6edfd4",
+            "name": "Linux",
+            "vanity_slug": "linux"
+          },
+          {
+            "id": "f358c5fa-dd78-43dc-b6cc-6a7a95d986dd",
+            "name": "Macintosh OS",
+            "vanity_slug": "macintosh-os"
+          },
+          {
+            "id": "a4c1cb35-8601-4e02-9445-16187d064682",
+            "name": "Operating Systems",
+            "vanity_slug": "operating-systems"
+          },
+          {
+            "id": "fa69b3fa-b9a6-406a-bc2c-3f739375df1b",
+            "name": "OS",
+            "vanity_slug": "os"
+          },
+          {
+            "id": "6102832c-ca63-482c-a32b-6b4653a53aec",
+            "name": "Peripherals",
+            "vanity_slug": "peripherals"
+          },
+          {
+            "id": "72a333e6-6ea7-4d3d-87d0-a777c07ede9f",
+            "name": "Settings",
+            "vanity_slug": "settings"
+          },
+          {
+            "id": "b3259332-0bbf-4db2-afbe-744f131988fd",
+            "name": "Software",
+            "vanity_slug": "software"
+          },
+          {
+            "id": "dc03188d-248c-4595-8291-d5ff025fec29",
+            "name": "Technology",
+            "vanity_slug": "technology"
+          },
+          {
+            "id": "59483e40-1d5e-46ec-b64c-613254766422",
+            "name": "Troubleshooting",
+            "vanity_slug": "troubleshooting"
+          },
+          {
+            "id": "214cb2b8-31b9-40c0-972e-d4da477dfaf9",
+            "name": "Windows",
+            "vanity_slug": "windows"
+          }
+        ]
+      },
+      "image": {
+        "id": "bf8594c5-1e2d-4e5b-ab28-09c46bd755a3",
+        "url": "https://images.credly.com/images/bf8594c5-1e2d-4e5b-ab28-09c46bd755a3/IC3_computing_fundamentals.png"
+      },
+      "image_url": "https://images.credly.com/images/bf8594c5-1e2d-4e5b-ab28-09c46bd755a3/IC3_computing_fundamentals.png",
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "f8d26d60-ee69-4482-8b41-190ccecc3c45",
+      "expires_at_date": null,
+      "issued_at_date": "2020-09-30",
+      "issued_to": "Ngwa Sedrick Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2020-09-30T03:50:37.851+02:00",
+      "expires_at": null,
+      "issued_at": "2020-09-30T02:00:00.000+02:00",
+      "last_updated_at": "2020-09-30T03:50:37.858+02:00",
+      "updated_at": "2020-09-30T03:50:37.858+02:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by IBM",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "name": "IBM",
+              "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "vanity_url": "https://www.credly.com/org/ibm",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": false,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "0e29179c-9280-4841-81af-5bcd13313960",
+        "cost": "Free",
+        "description": "This badge earner has learned and displayed fundamental mainframe skills. This individual is able to perform everyday tasks in an IBM Z mainframe environment, including administering data sets, formulating commands, managing JCL, scripting actions in USS (Unix System Services), writing and debugging Python, and orchestrating actions through IBM Z Open Automation Utilities.",
+        "global_activity_url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe-badges",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": "Intermediate",
+        "name": "Master the Mainframe 2020 - Level 2",
+        "vanity_slug": "master-the-mainframe-2020-level-2",
+        "time_to_earn": "Days",
+        "type_category": "Learning",
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "80917845-d573-4efa-a18c-191a4ebdd85f",
+          "url": "https://images.credly.com/images/80917845-d573-4efa-a18c-191a4ebdd85f/MTM_Level_2.png"
+        },
+        "image_url": "https://images.credly.com/images/80917845-d573-4efa-a18c-191a4ebdd85f/MTM_Level_2.png",
+        "url": "https://www.credly.com/org/ibm/badge/master-the-mainframe-2020-level-2",
+        "issuer": {
+          "summary": "issued by IBM",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "name": "IBM",
+                "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "vanity_url": "https://www.credly.com/org/ibm",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": false,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "63427c0f-fec6-465d-96f0-5a3218c576b7",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Must successfully complete all challenges in Level 2 of the 2020 Master the Mainframe Contest or Learning System.",
+            "url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe"
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "30bd39c3-ca85-4f91-9539-7e18f88bd91b",
+            "name": "Bash",
+            "vanity_slug": "bash"
+          },
+          {
+            "id": "c4c006cb-5f27-44f3-bbe1-b0db3496e78f",
+            "name": "JCL",
+            "vanity_slug": "jcl"
+          },
+          {
+            "id": "4aee0c74-ba66-4cd1-ab6b-ad0d4b86e3d9",
+            "name": "MVS Commands",
+            "vanity_slug": "mvs-commands"
+          },
+          {
+            "id": "5ce636ce-2ef7-40d3-bccd-58aca66ec45d",
+            "name": "Programming",
+            "vanity_slug": "programming"
+          },
+          {
+            "id": "94c11ea3-cc1b-4177-9f1e-f98291a69850",
+            "name": "Python",
+            "vanity_slug": "python"
+          },
+          {
+            "id": "e7b65229-9f51-408f-9c5f-835dfc7e3563",
+            "name": "z/OS",
+            "vanity_slug": "z-os.e921193f"
+          },
+          {
+            "id": "bd99be41-752c-4d54-a81a-a2fe1b12b34d",
+            "name": "z/OS UNIX",
+            "vanity_slug": "z-os-unix"
+          },
+          {
+            "id": "24528792-6717-4936-8e9f-d3cd12f783d9",
+            "name": "Zowe",
+            "vanity_slug": "zowe"
+          }
+        ]
+      },
+      "image": {
+        "id": "80917845-d573-4efa-a18c-191a4ebdd85f",
+        "url": "https://images.credly.com/images/80917845-d573-4efa-a18c-191a4ebdd85f/MTM_Level_2.png"
+      },
+      "image_url": "https://images.credly.com/images/80917845-d573-4efa-a18c-191a4ebdd85f/MTM_Level_2.png",
+      "evidence": [],
+      "recommendations": []
+    },
+
+    {
+      "id": "6e4faca9-2fad-4a4e-a048-2be7ec7923ea",
+      "expires_at_date": null,
+      "issued_at_date": "2020-01-26",
+      "issued_to": "Ngwa Sedrick Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2020-01-26T23:27:01.581+01:00",
+      "expires_at": null,
+      "issued_at": "2020-01-26T01:00:00.000+01:00",
+      "last_updated_at": "2020-01-26T23:27:01.591+01:00",
+      "updated_at": "2020-01-26T23:27:01.591+01:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by IBM",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "name": "IBM",
+              "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "vanity_url": "https://www.credly.com/org/ibm",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": false,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "c538c122-6d4b-4088-a2b2-7edace0d8046",
+        "cost": "Free",
+        "description": "The badge earner has the ability to innovate on the mainframe by solving real-life situations encountered by experienced systems programmers. This individual has demonstrated their extensive programming skills (advanced commands system navigation) and is able to develop application tasks (C, JAVA, COBOL, assembler and REXX) on the z/OS platform.",
+        "global_activity_url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe-badges",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": "Intermediate",
+        "name": "Master the Mainframe 2019 - Part 3",
+        "vanity_slug": "master-the-mainframe-2019-part-3",
+        "time_to_earn": "Days",
+        "type_category": "Learning",
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "1f5b5d97-670f-4706-a09e-fe9092d1380d",
+          "url": "https://images.credly.com/images/1f5b5d97-670f-4706-a09e-fe9092d1380d/Master_the_Mainframe_2019_-_Real_World_Challenge_-_v2.png"
+        },
+        "image_url": "https://images.credly.com/images/1f5b5d97-670f-4706-a09e-fe9092d1380d/Master_the_Mainframe_2019_-_Real_World_Challenge_-_v2.png",
+        "url": "https://www.credly.com/org/ibm/badge/master-the-mainframe-2019-part-3",
+        "issuer": {
+          "summary": "issued by IBM",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "name": "IBM",
+                "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "vanity_url": "https://www.credly.com/org/ibm",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": false,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "9a15d1db-4a93-4b7d-891c-f10a78aec531",
+            "activity_type": "Member",
+            "required_badge_template_id": null,
+            "title": "Must currently be a student at a high school, college or university, and at least 16 years old.",
+            "url": null
+          },
+          {
+            "id": "c7c0b58a-01e6-4614-8e73-b98fddddc5a6",
+            "activity_type": "Schedule / Registration",
+            "required_badge_template_id": null,
+            "title": "Registration in the IBM Master the Mainframe contest for 2019.",
+            "url": "http://ibm.biz/masterthemainframe"
+          },
+          {
+            "id": "452ad330-7cf5-4235-8da6-9a79fc5839e3",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Complete Master the Mainframe Part 2.",
+            "url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe"
+          },
+          {
+            "id": "0d4a6221-5400-4295-b460-eef0686bf101",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Complete Master the Mainframe - Part 3.",
+            "url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe"
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "c02f1e44-30ab-4515-8efb-2951569ef9d8",
+            "name": "Assembler",
+            "vanity_slug": "assembler"
+          },
+          {
+            "id": "8aa0a62c-78e1-425c-9767-c9c6bab2ed1c",
+            "name": "C",
+            "vanity_slug": "c.b02b0a18"
+          },
+          {
+            "id": "d8f7047c-2519-48e9-a726-cee7c8abd743",
+            "name": "COBOL",
+            "vanity_slug": "cobol"
+          },
+          {
+            "id": "4e2c8d6a-1839-4a73-bb99-2cfe3b574100",
+            "name": "Java",
+            "vanity_slug": "java"
+          },
+          {
+            "id": "a5b12014-e9b6-4491-8b25-5436c0db7f15",
+            "name": "REXX",
+            "vanity_slug": "rexx"
+          },
+          {
+            "id": "771f6bf7-4e26-4298-95fa-6c364a9f9af9",
+            "name": "SDSF",
+            "vanity_slug": "sdsf"
+          },
+          {
+            "id": "9b734ad9-7b20-42ea-af95-fd1f98256cec",
+            "name": "SMP/E",
+            "vanity_slug": "smp-e.23fba647"
+          },
+          {
+            "id": "e7b65229-9f51-408f-9c5f-835dfc7e3563",
+            "name": "z/OS",
+            "vanity_slug": "z-os.e921193f"
+          }
+        ]
+      },
+      "image": {
+        "id": "1f5b5d97-670f-4706-a09e-fe9092d1380d",
+        "url": "https://images.credly.com/images/1f5b5d97-670f-4706-a09e-fe9092d1380d/Master_the_Mainframe_2019_-_Real_World_Challenge_-_v2.png"
+      },
+      "image_url": "https://images.credly.com/images/1f5b5d97-670f-4706-a09e-fe9092d1380d/Master_the_Mainframe_2019_-_Real_World_Challenge_-_v2.png",
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "225d96a6-e827-4a82-820c-f68725ab66eb",
+      "expires_at_date": null,
+      "issued_at_date": "2019-10-12",
+      "issued_to": "Ngwa Sedrick Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2019-10-13T05:20:52.265+02:00",
+      "expires_at": null,
+      "issued_at": "2019-10-12T02:00:00.000+02:00",
+      "last_updated_at": "2019-10-13T05:20:52.272+02:00",
+      "updated_at": "2019-10-13T05:20:52.272+02:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by IBM",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "name": "IBM",
+              "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "vanity_url": "https://www.credly.com/org/ibm",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": false,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "ae133537-b9f2-45e6-ac87-5cdf8a29678d",
+        "cost": "Free",
+        "description": "The badge earner has mastered basic mainframe concepts. This individual is able to perform programming (advanced commands, system setup, and advanced system navigation) and application developing tasks (C, JAVA, COBOL, assembler and REXX) all on the z/OS platform.",
+        "global_activity_url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe-badges",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": "Foundational",
+        "name": "Master the Mainframe 2019 - Part 2",
+        "vanity_slug": "master-the-mainframe-2019-part-2",
+        "time_to_earn": "Days",
+        "type_category": "Learning",
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "7538eb1d-cfd0-4d09-9191-d9ba89ac9c8f",
+          "url": "https://images.credly.com/images/7538eb1d-cfd0-4d09-9191-d9ba89ac9c8f/Master_the_Mainframe_2019_-_Practical_Achievement_v2.png"
+        },
+        "image_url": "https://images.credly.com/images/7538eb1d-cfd0-4d09-9191-d9ba89ac9c8f/Master_the_Mainframe_2019_-_Practical_Achievement_v2.png",
+        "url": "https://www.credly.com/org/ibm/badge/master-the-mainframe-2019-part-2",
+        "issuer": {
+          "summary": "issued by IBM",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "name": "IBM",
+                "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "vanity_url": "https://www.credly.com/org/ibm",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": false,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "da7ce712-0dd6-4d8c-a8c2-b49dfaff4abc",
+            "activity_type": "Member",
+            "required_badge_template_id": null,
+            "title": "Must currently be a student at a high school, college or university, and at least 16 years old.",
+            "url": null
+          },
+          {
+            "id": "6564f9dc-e561-46e2-ad51-825c9f9ff021",
+            "activity_type": "Schedule / Registration",
+            "required_badge_template_id": null,
+            "title": "Registration in the IBM Master the Mainframe contest for 2019.",
+            "url": "http://ibm.biz/masterthemainframe"
+          },
+          {
+            "id": "e7c88504-1cf7-4260-b591-5b17332c50c5",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Completion of the IBM Master the Mainframe - Part 2 contest.",
+            "url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe"
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "38282ee3-99f2-427e-bd42-297dd7dede06",
+            "name": "Db2",
+            "vanity_slug": "db2"
+          },
+          {
+            "id": "c4c006cb-5f27-44f3-bbe1-b0db3496e78f",
+            "name": "JCL",
+            "vanity_slug": "jcl"
+          },
+          {
+            "id": "5ce636ce-2ef7-40d3-bccd-58aca66ec45d",
+            "name": "Programming",
+            "vanity_slug": "programming"
+          },
+          {
+            "id": "771f6bf7-4e26-4298-95fa-6c364a9f9af9",
+            "name": "SDSF",
+            "vanity_slug": "sdsf"
+          },
+          {
+            "id": "de35d7f2-cabf-474d-a1f3-009b91d9a64b",
+            "name": "z-OS",
+            "vanity_slug": "z-os"
+          }
+        ]
+      },
+      "image": {
+        "id": "7538eb1d-cfd0-4d09-9191-d9ba89ac9c8f",
+        "url": "https://images.credly.com/images/7538eb1d-cfd0-4d09-9191-d9ba89ac9c8f/Master_the_Mainframe_2019_-_Practical_Achievement_v2.png"
+      },
+      "image_url": "https://images.credly.com/images/7538eb1d-cfd0-4d09-9191-d9ba89ac9c8f/Master_the_Mainframe_2019_-_Practical_Achievement_v2.png",
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "3ccce455-b5e1-430f-a7c0-065620cc1383",
+      "expires_at_date": null,
+      "issued_at_date": "2019-07-22",
+      "issued_to": "Ngwa Sedrick Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2019-07-23T08:55:17.390+02:00",
+      "expires_at": null,
+      "issued_at": "2019-07-22T06:00:00.000+02:00",
+      "last_updated_at": "2019-07-23T08:55:17.390+02:00",
+      "updated_at": "2019-07-23T08:55:17.392+02:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by IBM",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "name": "IBM",
+              "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "vanity_url": "https://www.credly.com/org/ibm",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": false,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "8a9a87f6-b08e-434a-ba5e-66c636ca6336",
+        "cost": null,
+        "description": "The badge earner has demonstrated above average familiarity and practical experience with the z/OS environment, including: z/OS access and navigation of data sources; programming languages and JES spool using TSO, ISPF, JCL, SDSF, SSH, FTP, Unix Services, VSAM, DB2, Communications Server, RACF, and SMP/E; and identification of base components.",
+        "global_activity_url": "http://dtsc.dfw.ibm.com/MVSDS/'HTTPD2.APPS.ZOSCLASS.SHTML(ZOSCLASS)'",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": null,
+        "name": "z/OS Introduction \u0026 Workshop",
+        "vanity_slug": "z-os-introduction-workshop",
+        "time_to_earn": null,
+        "type_category": null,
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "57ffd841-17f0-4281-8369-9831a8c802a1",
+          "url": "https://images.credly.com/images/57ffd841-17f0-4281-8369-9831a8c802a1/image.png"
+        },
+        "image_url": "https://images.credly.com/images/57ffd841-17f0-4281-8369-9831a8c802a1/image.png",
+        "url": "https://www.credly.com/org/ibm/badge/z-os-introduction-workshop",
+        "issuer": {
+          "summary": "issued by IBM",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "name": "IBM",
+                "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "vanity_url": "https://www.credly.com/org/ibm",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": false,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "9c9a109e-b410-42cb-ae27-06eaffef76ca",
+            "activity_type": "Course",
+            "required_badge_template_id": null,
+            "title": "Attending a z/OS Introduction Workshop.",
+            "url": "https://www.ibm.biz/zOSclass"
+          },
+          {
+            "id": "645e9f60-80ce-4bda-8b01-5f589aeda269",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Completion of all class labs.",
+            "url": null
+          },
+          {
+            "id": "e5ad241d-ea1e-43f3-9f33-c8bd70498419",
+            "activity_type": "Assessment",
+            "required_badge_template_id": null,
+            "title": "Receiving a passing grade on the final exam.",
+            "url": null
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "d8f7047c-2519-48e9-a726-cee7c8abd743",
+            "name": "COBOL",
+            "vanity_slug": "cobol"
+          },
+          {
+            "id": "fafa734a-5fc8-4889-9927-2ed1b62c2fd5",
+            "name": "Communications Server",
+            "vanity_slug": "communications-server"
+          },
+          {
+            "id": "38282ee3-99f2-427e-bd42-297dd7dede06",
+            "name": "Db2",
+            "vanity_slug": "db2"
+          },
+          {
+            "id": "547613b5-efda-4a03-bb89-f167a39ad24b",
+            "name": "FTP",
+            "vanity_slug": "ftp"
+          },
+          {
+            "id": "cf496166-05a2-445c-a9f7-af9e5d1d98d0",
+            "name": "ISPF",
+            "vanity_slug": "ispf"
+          },
+          {
+            "id": "c4c006cb-5f27-44f3-bbe1-b0db3496e78f",
+            "name": "JCL",
+            "vanity_slug": "jcl"
+          },
+          {
+            "id": "5ce636ce-2ef7-40d3-bccd-58aca66ec45d",
+            "name": "Programming",
+            "vanity_slug": "programming"
+          },
+          {
+            "id": "b71f5c94-4a13-4586-abe8-8cf6fd6a0f7f",
+            "name": "RACF",
+            "vanity_slug": "racf"
+          },
+          {
+            "id": "771f6bf7-4e26-4298-95fa-6c364a9f9af9",
+            "name": "SDSF",
+            "vanity_slug": "sdsf"
+          },
+          {
+            "id": "15a3a10c-e39e-4f48-9497-3e78f5d0ea9f",
+            "name": "SMP-E",
+            "vanity_slug": "smp-e"
+          },
+          {
+            "id": "ef50493c-eed1-4393-a179-d83197bf443e",
+            "name": "Ssh",
+            "vanity_slug": "ssh"
+          },
+          {
+            "id": "676e2366-afe7-4145-a228-b16e615231de",
+            "name": "TSO",
+            "vanity_slug": "tso"
+          },
+          {
+            "id": "4c51bc4c-07f0-4bff-92af-20175a2b3f9c",
+            "name": "Unix Services",
+            "vanity_slug": "unix-services"
+          },
+          {
+            "id": "0c9f5e60-2e8a-493c-b756-42e9e90ba4ac",
+            "name": "VSAM",
+            "vanity_slug": "vsam"
+          },
+          {
+            "id": "de35d7f2-cabf-474d-a1f3-009b91d9a64b",
+            "name": "z-OS",
+            "vanity_slug": "z-os"
+          }
+        ]
+      },
+      "image": {
+        "id": "57ffd841-17f0-4281-8369-9831a8c802a1",
+        "url": "https://images.credly.com/images/57ffd841-17f0-4281-8369-9831a8c802a1/image.png"
+      },
+      "image_url": "https://images.credly.com/images/57ffd841-17f0-4281-8369-9831a8c802a1/image.png",
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "8da431f1-8117-4698-9c82-1f44ff028bb2",
+      "expires_at_date": null,
+      "issued_at_date": "2020-09-23",
+      "issued_to": "Ngwa Sedrick Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2020-09-23T14:05:07.598+02:00",
+      "expires_at": null,
+      "issued_at": "2020-09-23T14:05:07.000+02:00",
+      "last_updated_at": "2020-09-23T14:05:07.608+02:00",
+      "updated_at": "2020-09-23T14:05:07.608+02:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by IBM",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "name": "IBM",
+              "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "vanity_url": "https://www.credly.com/org/ibm",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": false,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "3d311433-5063-48ae-b556-449ed4aee4af",
+        "cost": "Free",
+        "description": "This badge earner has gained knowledge about the structure of COBOL programs, different data types and variable handling, intrinsic functions, branching logic and more. The individual is able to write basic COBOL programs.",
+        "global_activity_url": "https://ibm.box.com/s/368tal6luh9ouv5pclbminh436hfsd1l",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": "Foundational",
+        "name": "COBOL Programming with VSCode",
+        "vanity_slug": "cobol-programming-with-vscode",
+        "time_to_earn": "Days",
+        "type_category": "Learning",
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "99d1b7ee-eef2-4c50-96c7-56b22ffaaac3",
+          "url": "https://images.credly.com/images/99d1b7ee-eef2-4c50-96c7-56b22ffaaac3/Cobol_Programming_with_VSCode.png"
+        },
+        "image_url": "https://images.credly.com/images/99d1b7ee-eef2-4c50-96c7-56b22ffaaac3/Cobol_Programming_with_VSCode.png",
+        "url": "https://www.credly.com/org/ibm/badge/cobol-programming-with-vscode",
+        "issuer": {
+          "summary": "issued by IBM",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "name": "IBM",
+                "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "vanity_url": "https://www.credly.com/org/ibm",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": false,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "ebb64c24-4325-499b-8f53-347a6b9b8be5",
+            "activity_type": "Course",
+            "required_badge_template_id": null,
+            "title": "Successful completion of the course Learning COBOL Programming with VSCode which includes hands-on training on IBM Mainframe z/OS environment.",
+            "url": "https://learn.ibm.com/course/view.php?id=7552"
+          },
+          {
+            "id": "2532a991-59ba-4249-b52f-d7149d93e67d",
+            "activity_type": "Assessment",
+            "required_badge_template_id": null,
+            "title": "Achieve a score of 80% or more on the final quiz at the end of the course.",
+            "url": null
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "abd71635-bd48-4a73-b050-3fb82991f8f6",
+            "name": "Banking",
+            "vanity_slug": "banking"
+          },
+          {
+            "id": "3fa750a1-613e-4b51-88c8-42e18a2a8ce7",
+            "name": "Cloud",
+            "vanity_slug": "cloud"
+          },
+          {
+            "id": "d8f7047c-2519-48e9-a726-cee7c8abd743",
+            "name": "COBOL",
+            "vanity_slug": "cobol"
+          },
+          {
+            "id": "e5b0b763-4924-44de-809e-32b268c395d8",
+            "name": "Coding",
+            "vanity_slug": "coding"
+          },
+          {
+            "id": "80b56616-5c4f-40dd-be20-50562a562f83",
+            "name": "Critical Thinking",
+            "vanity_slug": "critical-thinking"
+          },
+          {
+            "id": "199ea79c-522a-4c45-b4cf-ab5592aaea05",
+            "name": "Developer",
+            "vanity_slug": "developer"
+          },
+          {
+            "id": "1dd01a52-63fa-4e16-9a8b-3e1cc25e85f0",
+            "name": "Problem Solving",
+            "vanity_slug": "problem-solving"
+          },
+          {
+            "id": "5ce636ce-2ef7-40d3-bccd-58aca66ec45d",
+            "name": "Programming",
+            "vanity_slug": "programming"
+          }
+        ]
+      },
+      "image": {
+        "id": "99d1b7ee-eef2-4c50-96c7-56b22ffaaac3",
+        "url": "https://images.credly.com/images/99d1b7ee-eef2-4c50-96c7-56b22ffaaac3/Cobol_Programming_with_VSCode.png"
+      },
+      "image_url": "https://images.credly.com/images/99d1b7ee-eef2-4c50-96c7-56b22ffaaac3/Cobol_Programming_with_VSCode.png",
+      "evidence": [],
+      "recommendations": []
+    },
+    {
+      "id": "7e081269-8b33-460a-9b25-674aed1c6e60",
+      "expires_at_date": null,
+      "issued_at_date": "2019-01-15",
+      "issued_to": "Ngwa Sedrick Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2019-01-16T03:13:47.188+01:00",
+      "expires_at": null,
+      "issued_at": "2019-01-15T01:00:00.000+01:00",
+      "last_updated_at": "2019-01-16T03:13:47.188+01:00",
+      "updated_at": "2019-01-16T03:13:47.200+01:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by IBM",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "name": "IBM",
+              "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "vanity_url": "https://www.credly.com/org/ibm",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": false,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "8468a147-f926-4bb1-8868-3aee3e74d428",
+        "cost": null,
+        "description": "The badge earner has the ability to innovate on the mainframe by solving real life situations encountered by experienced systems programmers. This individual has demonstrated their extensive programming skills (advanced commands system navigation) and is able to develop application tasks (C, JAVA, COBOL, assembler and REXX), all on the z/OS platform.",
+        "global_activity_url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe-badges",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": null,
+        "name": "Master the Mainframe 2018 - Part 3",
+        "vanity_slug": "master-the-mainframe-2018-part-3",
+        "time_to_earn": null,
+        "type_category": null,
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "adfda662-7b1f-4c31-b028-85f5004d37cf",
+          "url": "https://images.credly.com/images/adfda662-7b1f-4c31-b028-85f5004d37cf/Master_the_MF_-_Real_World_Challenge_2018.png"
+        },
+        "image_url": "https://images.credly.com/images/adfda662-7b1f-4c31-b028-85f5004d37cf/Master_the_MF_-_Real_World_Challenge_2018.png",
+        "url": "https://www.credly.com/org/ibm/badge/master-the-mainframe-2018-part-3",
+        "issuer": {
+          "summary": "issued by IBM",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "name": "IBM",
+                "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "vanity_url": "https://www.credly.com/org/ibm",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": false,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "eeb7f7b5-0c99-4094-b038-4df54d188b2b",
+            "activity_type": "Member",
+            "required_badge_template_id": null,
+            "title": "Must currently be a student at a high school, college or university, and at least 16 years old.",
+            "url": null
+          },
+          {
+            "id": "f0529a69-5ad6-4305-af5c-90f7959d41bb",
+            "activity_type": "Schedule / Registration",
+            "required_badge_template_id": null,
+            "title": "Registration in the IBM Master the Mainframe contest for 2018.",
+            "url": "http://ibm.biz/masterthemainframe"
+          },
+          {
+            "id": "5b3c8b68-8181-469b-9c6c-5eb8d1b01ebd",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Completion of the IBM Master the Mainframe - Part 2 challenges.",
+            "url": null
+          },
+          {
+            "id": "4be229dc-f788-4b1d-8d20-a93ebe8c1c87",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Completion of the IBM Master the Mainframe - Part 3 challenges.",
+            "url": null
+          },
+          {
+            "id": "68dcf679-ecb6-4ab7-97db-3c18da4dd93c",
+            "activity_type": "Other",
+            "required_badge_template_id": null,
+            "title": "IBM Academic Initiative will contact you of your eligibility automatically with further instructions to receive this badge.",
+            "url": null
+          },
+          {
+            "id": "94ba289b-0857-4454-80cb-cf8b0bebb991",
+            "activity_type": "Other",
+            "required_badge_template_id": null,
+            "title": "Note: This badge is retired and no longer available.",
+            "url": null
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "444251d4-f225-4004-9101-bbf17e042273",
+            "name": "Assembler Language",
+            "vanity_slug": "assembler-language"
+          },
+          {
+            "id": "8aa0a62c-78e1-425c-9767-c9c6bab2ed1c",
+            "name": "C",
+            "vanity_slug": "c.b02b0a18"
+          },
+          {
+            "id": "d8f7047c-2519-48e9-a726-cee7c8abd743",
+            "name": "COBOL",
+            "vanity_slug": "cobol"
+          },
+          {
+            "id": "bb52a06a-943a-44e7-86ed-e37002191ff7",
+            "name": "Data Analytics",
+            "vanity_slug": "data-analytics"
+          },
+          {
+            "id": "38282ee3-99f2-427e-bd42-297dd7dede06",
+            "name": "Db2",
+            "vanity_slug": "db2"
+          },
+          {
+            "id": "4e2c8d6a-1839-4a73-bb99-2cfe3b574100",
+            "name": "Java",
+            "vanity_slug": "java"
+          },
+          {
+            "id": "c4c006cb-5f27-44f3-bbe1-b0db3496e78f",
+            "name": "JCL",
+            "vanity_slug": "jcl"
+          },
+          {
+            "id": "1dd01a52-63fa-4e16-9a8b-3e1cc25e85f0",
+            "name": "Problem Solving",
+            "vanity_slug": "problem-solving"
+          },
+          {
+            "id": "5ce636ce-2ef7-40d3-bccd-58aca66ec45d",
+            "name": "Programming",
+            "vanity_slug": "programming"
+          },
+          {
+            "id": "a5b12014-e9b6-4491-8b25-5436c0db7f15",
+            "name": "REXX",
+            "vanity_slug": "rexx"
+          },
+          {
+            "id": "de35d7f2-cabf-474d-a1f3-009b91d9a64b",
+            "name": "z-OS",
+            "vanity_slug": "z-os"
+          }
+        ]
+      },
+      "image": {
+        "id": "adfda662-7b1f-4c31-b028-85f5004d37cf",
+        "url": "https://images.credly.com/images/adfda662-7b1f-4c31-b028-85f5004d37cf/Master_the_MF_-_Real_World_Challenge_2018.png"
+      },
+      "image_url": "https://images.credly.com/images/adfda662-7b1f-4c31-b028-85f5004d37cf/Master_the_MF_-_Real_World_Challenge_2018.png",
+      "evidence": [
+        {
+          "id": "e364ff56-2990-4a18-8771-3838775cedfb",
+          "type": "UrlEvidence",
+          "name": "2018 Master the Mainframe Wall of Fame",
+          "description": null,
+          "value": "http://mtm2018.mybluemix.net/wall_of_fame/wall_of_fame.html"
+        }
+      ],
+      "recommendations": []
+    },
+    {
+      "id": "4c7c39c8-2040-408e-9c90-404f64ea2d2a",
+      "expires_at_date": null,
+      "issued_at_date": "2018-12-18",
+      "issued_to": "Ngwa Sedrick Meh",
+      "locale": "en",
+      "public": true,
+      "state": "accepted",
+      "translate_metadata": false,
+      "accepted_at": "2018-12-18T16:55:50.932+01:00",
+      "expires_at": null,
+      "issued_at": "2018-12-18T01:00:00.000+01:00",
+      "last_updated_at": "2018-12-18T16:55:50.932+01:00",
+      "updated_at": "2018-12-18T16:55:50.934+01:00",
+      "earner_path": "/users/ngwa-sedrick-meh",
+      "earner_photo_url": "https://images.credly.com/images/ecb09c26-3314-4f93-a940-0117739a682d/blob.png",
+      "is_private_badge": false,
+      "user_is_earner": false,
+      "issuer": {
+        "summary": "issued by IBM",
+        "entities": [
+          {
+            "label": "Issued by",
+            "primary": true,
+            "entity": {
+              "type": "Organization",
+              "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "name": "IBM",
+              "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+              "vanity_url": "https://www.credly.com/org/ibm",
+              "internationalize_badge_templates": false,
+              "share_to_ziprecruiter": false,
+              "verified": false
+            }
+          }
+        ]
+      },
+      "badge_template": {
+        "id": "40431cad-de6a-447a-87bb-889f26a50dd4",
+        "cost": null,
+        "description": "The badge earner has mastered basic mainframe concepts. This individual is able to perform programming (advanced commands, system setup, and advanced system navigation) and application developing tasks (C, JAVA, COBOL, assembler and REXX) all on the z/OS platform.",
+        "global_activity_url": "https://www.ibm.com/it-infrastructure/z/education/master-the-mainframe-badges",
+        "earn_this_badge_url": null,
+        "enable_earn_this_badge": false,
+        "enable_detail_attribute_visibility": true,
+        "level": null,
+        "name": "Master the Mainframe 2018 - Part 2",
+        "vanity_slug": "master-the-mainframe-2018-part-2",
+        "time_to_earn": null,
+        "type_category": null,
+        "show_badge_lmi": true,
+        "show_skill_tag_links": true,
+        "translatable": false,
+        "image": {
+          "id": "c44c0b8b-f456-432a-b28e-9c50748022a6",
+          "url": "https://images.credly.com/images/c44c0b8b-f456-432a-b28e-9c50748022a6/Master_the_MF_-_Practical_Exp_2018.png"
+        },
+        "image_url": "https://images.credly.com/images/c44c0b8b-f456-432a-b28e-9c50748022a6/Master_the_MF_-_Practical_Exp_2018.png",
+        "url": "https://www.credly.com/org/ibm/badge/master-the-mainframe-2018-part-2",
+        "issuer": {
+          "summary": "issued by IBM",
+          "entities": [
+            {
+              "label": "Issued by",
+              "primary": true,
+              "entity": {
+                "type": "Organization",
+                "id": "d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "name": "IBM",
+                "url": "https://www.credly.com/api/v1/organizations/d5a90a02-5fe7-4915-a42d-8273c91cab0f",
+                "vanity_url": "https://www.credly.com/org/ibm",
+                "internationalize_badge_templates": false,
+                "share_to_ziprecruiter": false,
+                "verified": false
+              }
+            }
+          ]
+        },
+        "alignments": [],
+        "badge_template_activities": [
+          {
+            "id": "4e1d9ba8-8276-4ccc-850b-22d2d30c17ec",
+            "activity_type": "Member",
+            "required_badge_template_id": null,
+            "title": "Must currently be a student at a high school, college or university, and at least 16 years old.",
+            "url": null
+          },
+          {
+            "id": "d020cdb8-5884-4cb1-974e-a66c8d3ce3d7",
+            "activity_type": "Schedule / Registration",
+            "required_badge_template_id": null,
+            "title": "Registration in the IBM Master the Mainframe contest for 2018.",
+            "url": "http://ibm.biz/masterthemainframe"
+          },
+          {
+            "id": "7e169e49-4182-4676-953c-38fccfd95b7e",
+            "activity_type": "Participant",
+            "required_badge_template_id": null,
+            "title": "Completion of the IBM Master the Mainframe - Part 2 challenges.",
+            "url": null
+          },
+          {
+            "id": "92230296-a190-4c55-84bb-03d32bc86f27",
+            "activity_type": "Other",
+            "required_badge_template_id": null,
+            "title": "IBM Academic Initiative will contact you of your eligibility automatically with further instructions to receive this badge.",
+            "url": null
+          },
+          {
+            "id": "a48d2af4-81a3-4bc1-bc77-c0ad1813187d",
+            "activity_type": "Other",
+            "required_badge_template_id": null,
+            "title": "Note: This badge is now retired and no longer available.",
+            "url": null
+          }
+        ],
+        "endorsements": [],
+        "skills": [
+          {
+            "id": "444251d4-f225-4004-9101-bbf17e042273",
+            "name": "Assembler Language",
+            "vanity_slug": "assembler-language"
+          },
+          {
+            "id": "8aa0a62c-78e1-425c-9767-c9c6bab2ed1c",
+            "name": "C",
+            "vanity_slug": "c.b02b0a18"
+          },
+          {
+            "id": "d8f7047c-2519-48e9-a726-cee7c8abd743",
+            "name": "COBOL",
+            "vanity_slug": "cobol"
+          },
+          {
+            "id": "38282ee3-99f2-427e-bd42-297dd7dede06",
+            "name": "Db2",
+            "vanity_slug": "db2"
+          },
+          {
+            "id": "4e2c8d6a-1839-4a73-bb99-2cfe3b574100",
+            "name": "Java",
+            "vanity_slug": "java"
+          },
+          {
+            "id": "c4c006cb-5f27-44f3-bbe1-b0db3496e78f",
+            "name": "JCL",
+            "vanity_slug": "jcl"
+          },
+          {
+            "id": "5ce636ce-2ef7-40d3-bccd-58aca66ec45d",
+            "name": "Programming",
+            "vanity_slug": "programming"
+          },
+          {
+            "id": "a5b12014-e9b6-4491-8b25-5436c0db7f15",
+            "name": "REXX",
+            "vanity_slug": "rexx"
+          },
+          {
+            "id": "de35d7f2-cabf-474d-a1f3-009b91d9a64b",
+            "name": "z-OS",
+            "vanity_slug": "z-os"
+          }
+        ]
+      },
+      "image": {
+        "id": "c44c0b8b-f456-432a-b28e-9c50748022a6",
+        "url": "https://images.credly.com/images/c44c0b8b-f456-432a-b28e-9c50748022a6/Master_the_MF_-_Practical_Exp_2018.png"
+      },
+      "image_url": "https://images.credly.com/images/c44c0b8b-f456-432a-b28e-9c50748022a6/Master_the_MF_-_Practical_Exp_2018.png",
+      "evidence": [
+        {
+          "id": "04e898a3-5cc7-47f1-92d3-25261dc7640c",
+          "type": "UrlEvidence",
+          "name": "2018 Master the Mainframe Wall of Fame",
+          "description": null,
+          "value": "http://mtm2018.mybluemix.net/wall_of_fame/wall_of_fame.html"
+        }
+      ],
+      "recommendations": []
+    }
+  ],
+  "metadata": {
+    "count": 10,
+    "current_page": 1,
+    "total_count": 10,
+    "total_pages": 1,
+    "per": 48,
+    "previous_page_url": null,
+    "next_page_url": null
+  }
+}

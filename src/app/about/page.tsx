@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import headerBg from "images/header-background.png";
-import { Technologies } from "./technologies";
+import { Technologies, Awards } from "./components";
 
 const About = () => {
   return (
-    <div className="grid grid-cols-2 gap-8">
+    <div className="">
       <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
         <div className="flex flex-col self-center flex-1 gap-8 px-4 md:p-12">
           <h1 className="text-4xl font-extrabold tracking-wide">About Me</h1>
@@ -48,23 +48,18 @@ const About = () => {
         </div>
       </header>
 
-      <section className="max-w-full p-4 mb-10 prose scroll-mt-20 md:scroll-mt-5 lg:text-center col-span-full prose-invert">
-        <h2 className="mb-8 text-4xl font-bold">Technologies</h2>
-        <p className="text-lg">
-          Some of my tools, coupled with the ability to learn new ones on the
-          fly
-        </p>
-        <Technologies />
+      <Awards />
 
-        <div className="flex justify-center my-10">
-          <Link
-            href="/contact"
-            className="px-4 py-2 font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110"
-          >
-            Get In Touch
-          </Link>
-        </div>
-      </section>
+      <Technologies />
+
+      <div className="flex justify-center my-20">
+        <Link
+          href="/contact"
+          className="px-4 py-2 font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110"
+        >
+          Get In Touch
+        </Link>
+      </div>
     </div>
   );
 };
