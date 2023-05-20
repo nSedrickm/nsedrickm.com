@@ -2,7 +2,7 @@ import { Navbar, Footer } from "components";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], fallback: ["system-ui", "arial"] });
 
 export const metadata = {
   title: "Ngwa Sedrick Meh",
