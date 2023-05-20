@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <footer className="text-center bg-gradient-to-b from-gray-500/20 to-black backdrop-blur">
+    <footer className="text-center bg-gradient-to-b from-gray-500/25 via-gray-800/25 to-black backdrop-blur">
       <div className="flex flex-col flex-wrap items-center gap-8 p-4 md:p-8">
         <Logo />
         <p className="">For any queries, please feel free to contact me</p>
