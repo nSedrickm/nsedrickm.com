@@ -7,9 +7,11 @@ const About = () => {
   return (
     <div className="">
       <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
-        <div className="flex flex-col self-center flex-1 gap-8 px-4 md:p-12">
-          <h1 className="text-4xl font-extrabold tracking-wide">About Me</h1>
-          <h2 className="text-2xl font-light leading-tight md:text-5xl">
+        <div className="flex flex-col self-center flex-1 gap-6 p-6 sm:p-16">
+          <h1 className="text-3xl font-extrabold tracking-wide md:text-4xl">
+            About Me
+          </h1>
+          <h2 className="text-4xl font-light leading-tight md:text-5xl">
             Ngwa Sedrick Meh
           </h2>
 
@@ -55,7 +57,7 @@ const About = () => {
       <div className="flex justify-center my-20">
         <Link
           href="/contact"
-          className="px-4 py-2 font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110"
+          className="px-8 py-4 font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse hover:-translate-y-1 hover:scale-110"
         >
           Get In Touch
         </Link>

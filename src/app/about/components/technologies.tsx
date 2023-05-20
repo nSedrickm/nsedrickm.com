@@ -51,7 +51,7 @@ const techList: Record<string, any>[] = [
 
 export const Technologies = () => {
   return (
-    <section className="max-w-full p-4 my-20 prose scroll-mt-20 md:scroll-mt-5 lg:text-center prose-invert">
+    <section className="max-w-full p-6 my-20 prose sm:p-16 scroll-mt-20 md:scroll-mt-5 lg:text-center prose-invert">
       <h2 className="mb-8 text-3xl font-bold md:text-4xl">Technologies</h2>
       <p className="text-lg">
         Some of my tools, coupled with the ability to learn new ones on the fly

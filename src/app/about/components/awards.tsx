@@ -11,7 +11,7 @@ import clsx from "clsx";
 export const Awards = () => {
   const [show, setShow] = useState(false);
   return (
-    <section className="max-w-full p-4 my-20 prose md-p-8 scroll-mt-20 md:scroll-mt-5 prose-invert md:text-center">
+    <section className="max-w-full p-6 my-20 prose sm:p-16 md-p-8 scroll-mt-20 md:scroll-mt-5 prose-invert md:text-center">
       <h2 className="mb-8 text-3xl font-bold md:text-4xl">
         Awards and Credentials
       </h2>
