@@ -1,4 +1,3 @@
-import { url } from "inspector";
 import FCC from "src/app/images/fcc_primary_small.svg";
 import GSOC from "src/app/images/gsoc-2022-badge.svg";
 import Udacity from "src/app/images/udacity.svg";
