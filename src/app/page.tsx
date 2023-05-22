@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import headerBg from "images/header-background.png";
 import { ChevronRight } from "lucide-react";
-import { Services } from "components";
+import { Services, Testimonials } from "components";
 
 const Home = () => {
   return (
@@ -36,6 +36,7 @@ const Home = () => {
       </header>
 
       <Services />
+      <Testimonials />
     </div>
   );
 };
