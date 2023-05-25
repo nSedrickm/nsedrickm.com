@@ -1,5 +1,7 @@
-import { Navbar, Footer } from "components";
+import { ReactNode } from "react";
 import { Inter } from "next/font/google";
+import { Navbar, Footer, LayoutAnimationWrapper } from "components";
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], fallback: ["system-ui", "arial"] });
@@ -17,19 +19,21 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+interface Props {
+  children: ReactNode;
+}
+
+export default function RootLayout({ children }: Props) {
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
-        <div className="flex flex-col min-h-screen text-lg text-white bg-black">
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </div>
+        <LayoutAnimationWrapper>
+          <div className="flex flex-col min-h-screen text-lg text-white bg-black">
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
+        </LayoutAnimationWrapper>
       </body>
     </html>
   );

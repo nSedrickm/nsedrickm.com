@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import headerBg from "images/header-background.png";
 import { Technologies, Awards } from "./components";
+import { PageAnimationWrapper } from "components/PageAnimationWrapper";
 
 const About = () => {
   return (
-    <div className="">
+    <PageAnimationWrapper layoutId="about">
       <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
         <div className="flex flex-col self-center flex-1 gap-6 p-6 sm:p-16">
           <h1 className="text-3xl font-extrabold tracking-wide md:text-4xl">
@@ -62,7 +63,7 @@ const About = () => {
           Get In Touch
         </Link>
       </div>
-    </div>
+    </PageAnimationWrapper>
   );
 };
 

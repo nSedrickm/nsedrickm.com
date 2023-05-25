@@ -3,11 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import headerBg from "images/header-background.png";
 import { ChevronRight } from "lucide-react";
-import { Services, Testimonials } from "components";
+import { Services, Testimonials, PageAnimationWrapper } from "components";
+import { motion, useIsPresent } from "framer-motion";
 
 const Home = () => {
   return (
-    <div className="">
+    <PageAnimationWrapper layoutId="home">
       <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
         <div className="flex flex-col self-center flex-1 gap-8 p-6 mt-20 sm:p-16">
           <h1 className="text-5xl font-extrabold tracking-wide md:text-6xl">
@@ -37,7 +38,7 @@ const Home = () => {
 
       <Services />
       <Testimonials />
-    </div>
+    </PageAnimationWrapper>
   );
 };
 

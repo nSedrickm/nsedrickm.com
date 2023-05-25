@@ -1,10 +1,13 @@
 import Image from "next/image";
+import { PageAnimationWrapper } from "components/PageAnimationWrapper";
 
 const Blog = () => {
   return (
-    <div className="grid min-h-screen place-items-center">
-      <div className="text-5xl">Blog</div>
-    </div>
+    <PageAnimationWrapper layoutId="blog">
+      <div className="grid min-h-screen place-items-center">
+        <div className="text-5xl">Blog</div>
+      </div>
+    </PageAnimationWrapper>
   );
 };
 

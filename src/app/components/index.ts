@@ -3,3 +3,5 @@ export * from "./Footer";
 export * from "./Logo";
 export * from "./Services";
 export * from "./Testimonials";
+export * from "./PageAnimationWrapper";
+export * from "./LayoutAnimationWrapper";
