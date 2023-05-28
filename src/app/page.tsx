@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import headerBg from "images/header-background.png";
-import { ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Services, Testimonials, PageAnimationWrapper } from "components";
 import { motion } from "framer-motion";
 
@@ -33,10 +33,10 @@ const Home = () => {
           <motion.span variants={variants} className="self-start">
             <Link
               href="#services"
-              className="flex items-center justify-center gap-2 py-4 text-xl text-white transition duration-300 ease-in-out delay-150 border-b border-white md:text-2xl group"
+              className="flex items-center underline-offset-[1rem] gap-2 border-b py-3 border-white text-xl text-white transition duration-300 ease-in-out delay-150 md:text-2xl group"
             >
               <span>Learn more</span>
-              <ChevronRight />
+              <ArrowRight size={24} />
             </Link>
           </motion.span>
         </div>
