@@ -3,7 +3,12 @@ const data = [
     id: "ceph",
     title:
       "Improving Dashboard Accessibility for Blind and Visually Impaired Ceph Users",
-    image: "/images/portfolio/ceph/img-1.png",
+    images: [
+      "/images/portfolio/ceph/img-1.png",
+      "/images/portfolio/ceph/img-2.png",
+      "/images/portfolio/ceph/img-3.png",
+      "/images/portfolio/ceph/img-4.png",
+    ],
     organization: "Ceph",
     program: "Google Summer of Code 2022",
     categories: ["web"],
@@ -36,7 +41,18 @@ const data = [
     id: "CHPRIS",
     title:
       "Center For Health promotion and Research Information System (CHPRIS)",
-    image: "/images/portfolio/chpris/img-1.png",
+    images: [
+      "/images/portfolio/chpris/img-1.png",
+      "/images/portfolio/chpris/img-2.png",
+      "/images/portfolio/chpris/img-3.png",
+      "/images/portfolio/chpris/img-4.png",
+      "/images/portfolio/chpris/img-5.png",
+      "/images/portfolio/chpris/img-6.png",
+      "/images/portfolio/chpris/img-7.png",
+      "/images/portfolio/chpris/img-8.png",
+      "/images/portfolio/chpris/img-9.png",
+      "/images/portfolio/chpris/img-10.png",
+    ],
     organization: "CHPR",
     categories: ["web", "health-care"],
     tags: [
@@ -63,7 +79,12 @@ const data = [
   {
     id: "smswithoutborders",
     title: "SMSWithoutBorders.com",
-    image: "/images/portfolio/swob/img-1.png",
+    images: [
+      "/images/portfolio/swob/img-1.png",
+      "/images/portfolio/swob/img-2.png",
+      "/images/portfolio/swob/img-3.png",
+      "/images/portfolio/swob/img-4.png",
+    ],
     organization: "SMSWithoutBorders",
     categories: ["web", "design"],
     tags: [
@@ -86,7 +107,13 @@ const data = [
   {
     id: "smswithoutborders-dev",
     title: "SMSWithoutBorders Developer Console",
-    image: "/images/portfolio/swob-dev/img-1.png",
+    images: [
+      "/images/portfolio/swob-dev/img-1.png",
+      "/images/portfolio/swob-dev/img-2.png",
+      "/images/portfolio/swob-dev/img-3.png",
+      "/images/portfolio/swob-dev/img-4.png",
+      "/images/portfolio/swob-dev/img-5.png",
+    ],
     organization: "SMSWithoutBorders",
     categories: ["web", "design"],
     tags: [
@@ -109,7 +136,13 @@ const data = [
   {
     id: "mini-market",
     title: "Mini Market",
-    image: "/images/portfolio/mini-market/img-1.png",
+    images: [
+      "/images/portfolio/mini-market/img-1.png",
+      "/images/portfolio/mini-market/img-2.png",
+      "/images/portfolio/mini-market/img-3.png",
+      "/images/portfolio/mini-market/img-4.png",
+      "/images/portfolio/mini-market/img-5.png",
+    ],
     categories: ["web", "design", "full-stack"],
     tags: ["HTML", "Javascript", "JQuery", "CSS", "NodeJS", "Express", "MySQL"],
     links: {
@@ -123,7 +156,13 @@ const data = [
   {
     id: "neo",
     title: "Neo Saas Landing Page",
-    image: "/images/portfolio/neo/img-1.png",
+    images: [
+      "/images/portfolio/neo/img-1.png",
+      "/images/portfolio/neo/img-2.png",
+      "/images/portfolio/neo/img-3.png",
+      "/images/portfolio/neo/img-4.png",
+      "/images/portfolio/neo/img-5.png",
+    ],
     categories: ["web", "design", "full-stack"],
     tags: ["HTML", "Javascript", "Tailwind CSS"],
     links: {

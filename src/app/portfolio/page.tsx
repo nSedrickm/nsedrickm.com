@@ -1,9 +1,10 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { PageAnimationWrapper } from "components/PageAnimationWrapper";
+import { PageAnimationWrapper, Carousel } from "components";
 import { ExternalLink, Github } from "lucide-react";
 import data from "./data";
+import {} from "components/Carousel";
 
 const variants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
@@ -45,15 +46,7 @@ const Portfolio = () => {
                 <h3 className="my-0 text-2xl">{project.title}</h3>
               </div>
 
-              <div className="relative h-[15rem] md:h-[40rem]">
-                <Image
-                  fill
-                  src={project.image}
-                  alt={project.title}
-                  className="absolute inset-0 object-fill p-0 m-0 rounded-lg"
-                />
-              </div>
-
+              <Carousel images={project.images} />
               <p className="my-6 text-lg">{project.description}</p>
 
               <div className="flex flex-wrap items-center gap-6 text-lg font-light">
