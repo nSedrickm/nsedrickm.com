@@ -18,7 +18,7 @@ const Portfolio = () => {
         <header className="">
           <motion.h1
             variants={variants}
-            className="text-3xl font-extrabold tracking-wide md:text-4xl"
+            className="text-4xl font-extrabold tracking-wide md:text-5xl"
           >
             Portfolio
           </motion.h1>
@@ -39,11 +39,11 @@ const Portfolio = () => {
           {data.map((project) => (
             <div key={project.id} className="mb-10">
               <div className="mb-6">
-                <span className="text-xl font-light uppercase">
+                <span className="text-lg font-light uppercase">
                   {project.organization}
                   {project.program ? ` | ${project.program}` : ""}
                 </span>
-                <h3 className="my-0 text-2xl">{project.title}</h3>
+                <h3 className="mt-1 mb-4 text-2xl ">{project.title}</h3>
               </div>
 
               <Carousel images={project.images} />

@@ -1,6 +1,5 @@
 import { Facebook, Github, Linkedin, Twitter } from "lucide-react";
 import { Logo } from "./Logo";
-import Image from "next/image";
 import Link from "next/link";
 
 export const Footer = () => {
