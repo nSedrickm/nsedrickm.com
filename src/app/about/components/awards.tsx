@@ -11,7 +11,7 @@ import clsx from "clsx";
 export const Awards = () => {
   const [show, setShow] = useState(false);
   return (
-    <section className="max-w-full p-6 my-20 prose sm:p-16 md-p-8 scroll-mt-20 md:scroll-mt-5 prose-invert md:text-center">
+    <section className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert">
       <h2 className="mb-8 text-3xl font-bold md:text-4xl">
         Awards and Credentials
       </h2>
@@ -28,9 +28,9 @@ export const Awards = () => {
             className="flex items-center gap-4 p-3 transition duration-300 ease-in-out border rounded-md md:gap-6 md:p-6 group border-gray-500/25 backdrop-blur shadow-3xl"
           >
             <Image
-              src={item.image_url}
-              width={125}
               height={125}
+              width={125}
+              src={item.image_url}
               alt={item.name}
             />
             <div className="">
@@ -55,9 +55,9 @@ export const Awards = () => {
               className="flex items-center gap-4 p-3 transition duration-300 ease-in-out border rounded-md md:gap-6 md:p-6 group border-gray-500/25 backdrop-blur shadow-3xl"
             >
               <Image
-                src={item.image_url}
-                width={125}
                 height={125}
+                width={125}
+                src={item.image_url}
                 alt={item.badge_template.name}
               />
               <div className="">

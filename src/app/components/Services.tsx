@@ -66,9 +66,11 @@ export const Services = () => {
   return (
     <section
       id="services"
-      className="max-w-full p-6 my-20 prose sm:p-16 scroll-mt-20 md:scroll-mt-5 lg:text-center prose-invert"
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert"
     >
-      <h2 className="mb-8 text-3xl font-bold md:text-4xl">Services</h2>
+      <h2 className="mb-8 text-3xl font-bold tracking-wide md:text-4xl">
+        Services
+      </h2>
       <p className="text-lg">
         From custom web development to deployments and large codebase
         migrations, here are some of the services I can offer you today. You can
@@ -104,7 +106,7 @@ export const Services = () => {
 
       <div className="flex justify-center my-10">
         <Link
-          href="/contact?service=custom"
+          href="/contact?subject=I need a custom service"
           className="p-4 font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110"
         >
           Request Custom Solution

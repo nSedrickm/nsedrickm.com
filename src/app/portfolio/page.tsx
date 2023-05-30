@@ -14,7 +14,7 @@ const variants = {
 const Portfolio = () => {
   return (
     <PageAnimationWrapper layoutId="portfolio">
-      <div className="gap-6 p-6 mx-auto prose max-w-screen-2xl sm:p-16 prose-invert">
+      <div className="p-6 mx-auto prose max-w-full lg:max-w-[85%] prose-invert">
         <header className="">
           <motion.h1
             variants={variants}
@@ -39,7 +39,7 @@ const Portfolio = () => {
           {data.map((project) => (
             <div key={project.id} className="mb-10">
               <div className="mb-6">
-                <span className="text-lg font-light uppercase">
+                <span className="text-lg font-light text-gray-200 uppercase">
                   {project.organization}
                   {project.program ? ` | ${project.program}` : ""}
                 </span>

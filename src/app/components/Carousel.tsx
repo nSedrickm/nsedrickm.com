@@ -34,7 +34,7 @@ export const Carousel = ({ images }: Props) => {
   }
 
   return (
-    <motion.div className="relative h-[15rem] md:h-[30rem] lg:h-[45rem]">
+    <motion.div className="relative h-[15rem] md:h-[25rem] lg:h-[45rem]">
       <MotionImage
         fill
         key={index}

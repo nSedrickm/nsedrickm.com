@@ -26,11 +26,8 @@ export const Testimonials = () => {
     }
   }
   return (
-    <section
-      id="services"
-      className="max-w-full p-6 my-20 prose sm:p-16 scroll-mt-20 md:scroll-mt-5 lg:text-center prose-invert"
-    >
-      <h2 className="mb-8 text-3xl font-bold tracking-wide md:text-4xl font-heading">
+    <section className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert">
+      <h2 className="mb-8 text-3xl font-bold tracking-wide md:text-4xl">
         Testimonials
       </h2>
       <p className="text-lg">
@@ -38,11 +35,11 @@ export const Testimonials = () => {
         are some of the reviews I have received from my clients on Upwork.
       </p>
 
-      <div className="relative flex items-center justify-center gap-2 my-10 mb-10">
-        <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full md:p-8 md:static left-20 place-items-center backdrop-blur">
+      <div className="relative flex items-center justify-center gap-2 my-10 mb-10 ">
+        <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full left-32 md:static md:left-20 place-items-center backdrop-blur">
           <ChevronLeft
             role="button"
-            className="w-10 h-10 p-2 text-black bg-white border rounded-full md:w-12 md:h-12 md:p-3"
+            className="w-10 h-10 p-2 text-black bg-white rounded-full md:w-12 md:h-12 md:p-3"
             onClick={() => scrollContainer("back")}
           />
         </div>
@@ -53,7 +50,7 @@ export const Testimonials = () => {
           {reviews.map((item, index) => (
             <div
               key={index}
-              className="relative flex-none h-52 rounded-md md:h-72 group shadow-3xl w-[20rem] md:w-[30rem] shadow-3xl snap-center"
+              className="relative flex-none h-52 rounded-md md:h-72 group shadow-3xl w-[20rem] md:w-[30rem] shadow-3xl snap-start"
             >
               <Image
                 fill
@@ -66,10 +63,10 @@ export const Testimonials = () => {
           ))}
         </div>
 
-        <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full md:p-8 md:static right-20 place-items-center backdrop-blur">
+        <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full right-32 md:static md:right-20 place-items-center backdrop-blur">
           <ChevronRight
             role="button"
-            className="w-10 h-10 p-2 text-black bg-white border rounded-full md:w-12 md:h-12 md:p-3"
+            className="w-10 h-10 p-2 text-black bg-white rounded-full md:w-12 md:h-12 md:p-3"
             onClick={() => scrollContainer("forward")}
           />
         </div>
