@@ -1,13 +1,13 @@
 "use client";
 import { Fragment, useState } from "react";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
-import Link from "next/link";
-import clsx from "clsx";
 import { Menu, X } from "lucide-react";
 import { Logo } from "./Logo";
 import { useScroll } from "hooks/useScroll";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import clsx from "clsx";
+import HireMeMenu from "./HireMeMenu";
 
 const links = [
   { label: "Home", href: "/" },
@@ -25,7 +25,7 @@ export const Navbar = () => {
   return (
     <Fragment>
       {/* Desktop */}
-      <nav
+      <motion.nav
         className={clsx(
           "hidden lg:flex items-center justify-between z-40 px-8 sticky top-0",
           {
@@ -56,18 +56,13 @@ export const Navbar = () => {
           ))}
         </ul>
 
-        <Link
-          href="/contact"
-          className="p-2 font-bold text-black transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110"
-        >
-          Hire Me!
-        </Link>
-      </nav>
+        <HireMeMenu />
+      </motion.nav>
 
       {/* Mobile */}
       <motion.nav
         className={clsx(
-          "lg:hidden z-40 overflow-y-auto",
+          "lg:hidden z-40",
           (isScrolled || open) && "bg-black/40 backdrop-blur",
           open ? "fixed inset-0" : "sticky top-0"
         )}
@@ -75,12 +70,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between p-4">
           <Logo />
           <div className="flex items-center gap-2 sm:gap-4">
-            <Link
-              href="/contact"
-              className="p-2 font-bold text-black transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110"
-            >
-              Hire Me!
-            </Link>
+            <HireMeMenu />
             <button
               className="transition duration-300 ease-in-out delay-150 appearance-none lg:hidden hover:-translate-y-1 hover:scale-110"
               onClick={() => setOpen(!open)}
