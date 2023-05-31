@@ -123,7 +123,6 @@ const Contact = async () => {
 
             <motion.form
               variants={variants}
-              action="/api/contact"
               className="my-16 text-xl"
               onSubmit={handleSumbit}
             >
