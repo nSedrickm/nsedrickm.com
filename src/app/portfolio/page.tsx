@@ -14,7 +14,7 @@ const variants = {
 const Portfolio = () => {
   return (
     <PageAnimationWrapper layoutId="portfolio">
-      <div className="p-6 mx-auto prose max-w-full lg:max-w-[85%] prose-invert">
+      <div className="p-6 mx-auto prose max-w-full lg:max-w-[85%] 2xl:max-w-[70%] prose-invert">
         <header className="">
           <motion.h1
             variants={variants}
@@ -47,6 +47,7 @@ const Portfolio = () => {
               </div>
 
               <Carousel images={project.images} />
+
               <p className="my-6 text-lg">{project.description}</p>
 
               <div className="flex flex-wrap items-center gap-6 text-lg font-light">

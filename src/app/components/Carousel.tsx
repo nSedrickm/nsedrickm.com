@@ -34,7 +34,7 @@ export const Carousel = ({ images }: Props) => {
   }
 
   return (
-    <motion.div className="relative h-[15rem] md:h-[25rem] lg:h-[45rem]">
+    <motion.div className="relative h-[15rem] md:h-[25rem] lg:h-[42rem] 4xl:h-[55rem]">
       <MotionImage
         fill
         key={index}
@@ -43,9 +43,9 @@ export const Carousel = ({ images }: Props) => {
         animate="show"
         src={images[index]}
         alt="carousel image"
-        className="absolute inset-0 object-fill p-0 m-0 rounded-lg"
+        className="object-fill w-full h-full p-0 m-0 rounded-lg aspect-auto"
       />
-      <div className="absolute inset-0 flex items-end justify-center gap-3 pb-2 mb:pb-4 bg-gradient-to-b from-transparent via-transparent to-black/40">
+      <div className="absolute inset-0 flex items-end justify-center gap-3 pb-2 md:pb-4 bg-gradient-to-b from-transparent via-transparent to-black/40">
         <button
           aria-label="prev"
           onClick={() => changeImage("prev")}

@@ -32,8 +32,7 @@ export const Navbar = () => {
             "lg:-mb-44": ["/", "/about"].includes(path),
           },
           {
-            "backdrop-blur bg-black/40 lg:top-5 lg:mx-8 lg:py-2 lg:px-6 lg:rounded-lg":
-              isScrolled,
+            "backdrop-blur bg-black/40": isScrolled,
           }
         )}
       >
