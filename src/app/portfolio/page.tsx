@@ -1,10 +1,8 @@
 "use client";
-import Image from "next/image";
 import { motion } from "framer-motion";
-import { PageAnimationWrapper, Carousel } from "components";
+import { PageAnimationWrapper, Carousel } from "@/components";
 import { ExternalLink, Github } from "lucide-react";
 import data from "./data";
-import {} from "components/Carousel";
 
 const variants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },

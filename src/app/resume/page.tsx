@@ -1,5 +1,5 @@
 "use client";
-import { PageAnimationWrapper } from "components/PageAnimationWrapper";
+import { PageAnimationWrapper } from "@/components";
 import { motion } from "framer-motion";
 
 const variants = {

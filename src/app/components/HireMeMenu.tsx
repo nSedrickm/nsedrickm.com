@@ -3,7 +3,7 @@ import { ChevronDown } from "lucide-react";
 import { Menu, Transition } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
-import upworkLogo from "images/upwork.png";
+import upworkLogo from "@/images/upwork.png";
 
 export default function HireMeMenu() {
   return (

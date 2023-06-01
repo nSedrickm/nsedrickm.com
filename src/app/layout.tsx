@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
-import { Navbar, Footer, LayoutAnimationWrapper } from "components";
+import { Navbar, Footer, LayoutAnimationWrapper } from "@/components";
 
 import "./globals.css";
 

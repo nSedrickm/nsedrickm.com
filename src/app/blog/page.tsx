@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { PageAnimationWrapper } from "components/PageAnimationWrapper";
+import { PageAnimationWrapper } from "@/components";
 
 const Blog = () => {
   return (

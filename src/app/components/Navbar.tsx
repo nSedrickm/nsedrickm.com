@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { Logo } from "./Logo";
 import { useScroll } from "@/hooks/useScroll";
-import { motion } from "framer-motion";
 import Link from "next/link";
 import clsx from "clsx";
 import HireMeMenu from "./HireMeMenu";
@@ -25,7 +24,7 @@ export const Navbar = () => {
   return (
     <Fragment>
       {/* Desktop */}
-      <motion.nav
+      <nav
         className={clsx(
           "hidden lg:flex items-center justify-between z-40 px-8 sticky top-0",
           {
@@ -56,10 +55,10 @@ export const Navbar = () => {
         </ul>
 
         <HireMeMenu />
-      </motion.nav>
+      </nav>
 
       {/* Mobile */}
-      <motion.nav
+      <nav
         className={clsx(
           "lg:hidden z-40",
           (isScrolled || open) && "bg-black/40 backdrop-blur",
@@ -82,9 +81,9 @@ export const Navbar = () => {
 
         {/* Mobile Links */}
         {open && (
-          <motion.ul className="w-full p-4 mt-5">
+          <ul className="w-full p-4 mt-5">
             {links.map((link, index) => (
-              <motion.li key={index} className="h-28">
+              <li key={index} className="h-28">
                 <Link
                   href={link.href}
                   onClick={() => setOpen(!open)}
@@ -97,11 +96,11 @@ export const Navbar = () => {
                 >
                   {link.label}
                 </Link>
-              </motion.li>
+              </li>
             ))}
-          </motion.ul>
+          </ul>
         )}
-      </motion.nav>
+      </nav>
     </Fragment>
   );
 };

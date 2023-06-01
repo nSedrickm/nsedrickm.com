@@ -1,7 +1,7 @@
 "use client";
 import { Fragment, FormEvent } from "react";
 import { useSearchParams } from "next/navigation";
-import { PageAnimationWrapper } from "components/PageAnimationWrapper";
+import { PageAnimationWrapper } from "@/components";
 import { Facebook, Github, Linkedin, Twitter } from "lucide-react";
 import { motion } from "framer-motion";
 import useSWRMutation from "swr/mutation";

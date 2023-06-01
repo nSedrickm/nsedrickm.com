@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import headerBg from "images/header-background.png";
+import headerBg from "@/images/header-background.png";
 import { ArrowRight } from "lucide-react";
 import { Services, Testimonials, PageAnimationWrapper } from "@/components";
 import { motion } from "framer-motion";

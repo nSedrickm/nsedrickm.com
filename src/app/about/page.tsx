@@ -1,17 +1,18 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import headerBg from "images/header-background.png";
+import headerBg from "@/images/header-background.png";
 import { Technologies, Awards } from "./components";
 import { PageAnimationWrapper } from "@/components";
 import { motion } from "framer-motion";
 import { heroImageAnimation } from "@/utils/animations";
 
+const variants = {
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  hidden: { opacity: 0, y: -20 },
+};
+
 const About = () => {
-  const variants = {
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-    hidden: { opacity: 0, y: -20 },
-  };
   return (
     <PageAnimationWrapper layoutId="about">
       <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
