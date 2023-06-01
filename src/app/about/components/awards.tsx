@@ -1,17 +1,20 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import credlyBadges from "./credly-badges.json";
 import customBadges from "./custom-badges.js";
-import { NextjsLine, ReactOriginal } from "devicons-react";
 import { ChevronRight } from "lucide-react";
+import { motion } from "framer-motion";
 import clsx from "clsx";
+import { sectionAnimation } from "@/utils/animations";
 
 export const Awards = () => {
   const [show, setShow] = useState(false);
   return (
-    <section className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert">
+    <motion.section
+      {...sectionAnimation}
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert"
+    >
       <h2 className="mb-8 text-3xl font-bold md:text-4xl">
         Awards and Credentials
       </h2>
@@ -91,6 +94,6 @@ export const Awards = () => {
           </button>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };

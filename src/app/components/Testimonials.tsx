@@ -2,8 +2,9 @@
 import { useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import clsx from "clsx";
 import { ChevronRight, ChevronLeft } from "lucide-react";
+import { motion } from "framer-motion";
+import { sectionAnimation } from "../utils/animations";
 import img1 from "src/app/images/testimonials/img-1.png";
 import img2 from "src/app/images/testimonials/img-2.png";
 import img3 from "src/app/images/testimonials/img-3.png";
@@ -25,8 +26,12 @@ export const Testimonials = () => {
       });
     }
   }
+
   return (
-    <section className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert">
+    <motion.section
+      {...sectionAnimation}
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert"
+    >
       <h2 className="mb-8 text-3xl font-bold tracking-wide md:text-4xl">
         Testimonials
       </h2>
@@ -80,6 +85,6 @@ export const Testimonials = () => {
           {"Let's Collaborate Today!"}
         </Link>
       </div>
-    </section>
+    </motion.section>
   );
 };

@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import clsx from "clsx";
 import {
@@ -9,6 +10,8 @@ import {
   LayoutDashboard,
 } from "lucide-react";
 import { ReactOriginal } from "devicons-react";
+import { motion } from "framer-motion";
+import { sectionAnimation } from "src/app/utils/animations";
 
 const services: Record<string, any>[] = [
   {
@@ -64,9 +67,10 @@ const services: Record<string, any>[] = [
 
 export const Services = () => {
   return (
-    <section
+    <motion.section
       id="services"
       className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert"
+      {...sectionAnimation}
     >
       <h2 className="mb-8 text-3xl font-bold tracking-wide md:text-4xl">
         Services
@@ -112,6 +116,6 @@ export const Services = () => {
           Request Custom Solution
         </Link>
       </div>
-    </section>
+    </motion.section>
   );
 };

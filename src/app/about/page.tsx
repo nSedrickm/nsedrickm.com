@@ -3,8 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import headerBg from "images/header-background.png";
 import { Technologies, Awards } from "./components";
-import { PageAnimationWrapper } from "components/PageAnimationWrapper";
+import { PageAnimationWrapper } from "@/components";
 import { motion } from "framer-motion";
+import { heroImageAnimation } from "@/utils/animations";
 
 const About = () => {
   const variants = {
@@ -14,16 +15,16 @@ const About = () => {
   return (
     <PageAnimationWrapper layoutId="about">
       <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
-        <div className="flex flex-col self-center flex-1 gap-6 p-6 sm:p-16">
+        <div className="flex flex-col self-center flex-1 gap-6 p-6 text-gray-300 sm:p-16 lg:p-20">
           <motion.h1
             variants={variants}
-            className="text-3xl font-extrabold tracking-wide md:text-4xl"
+            className="text-3xl font-extrabold tracking-wide text-white md:text-4xl"
           >
             About Me
           </motion.h1>
           <motion.h2
             variants={variants}
-            className="text-4xl font-light leading-tight md:text-5xl"
+            className="text-4xl font-light leading-tight text-white md:text-5xl"
           >
             Ngwa Sedrick Meh
           </motion.h2>
@@ -54,13 +55,13 @@ const About = () => {
             and joins conversations on social hubs.
           </motion.p>
         </div>
-        <div className="relative flex-1">
+        <motion.div {...heroImageAnimation} className="relative flex-1">
           <Image
             src={headerBg}
             alt="header banner"
             className="block object-contain w-full shadow-xl"
           />
-        </div>
+        </motion.div>
       </header>
 
       <Awards />

@@ -10,6 +10,7 @@ interface Props {
 export const PageAnimationWrapper = ({ children, layoutId }: Props) => {
   return (
     <motion.div
+      key={layoutId}
       layoutId={layoutId}
       initial="hidden"
       animate="visible"

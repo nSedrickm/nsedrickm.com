@@ -1,3 +1,4 @@
+"use client";
 import {
   AngularjsOriginal,
   BootstrapOriginal,
@@ -16,6 +17,8 @@ import {
   TypescriptOriginal,
 } from "devicons-react";
 import { LucideGithub } from "lucide-react";
+import { motion } from "framer-motion";
+import { sectionAnimation } from "@/utils/animations";
 
 const techList: Record<string, any>[] = [
   {
@@ -51,7 +54,10 @@ const techList: Record<string, any>[] = [
 
 export const Technologies = () => {
   return (
-    <section className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert">
+    <motion.section
+      {...sectionAnimation}
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert"
+    >
       <h2 className="mb-8 text-3xl font-bold md:text-4xl">Technologies</h2>
       <p className="text-lg">
         Some of my tools, coupled with the ability to learn new ones on the fly
@@ -67,6 +73,6 @@ export const Technologies = () => {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
