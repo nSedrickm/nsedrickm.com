@@ -9,7 +9,7 @@ export default function HireMeMenu() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="flex items-center gap-2 p-2 text-black transition duration-300 ease-in-out delay-150 bg-white rounded-md md:p-4 hover:-translate-y-1">
+        <Menu.Button className="flex items-center gap-1 p-1.5 text-black transition duration-300 ease-in-out delay-150 bg-white rounded-md sm:p-2 md:p-4 hover:-translate-y-1">
           Hire Me!
           <ChevronDown className="w-5 h-5" aria-hidden="true" />
         </Menu.Button>

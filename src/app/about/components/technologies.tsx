@@ -18,7 +18,7 @@ import {
 } from "devicons-react";
 import { LucideGithub } from "lucide-react";
 import { motion } from "framer-motion";
-import { sectionAnimation } from "@/utils/animations";
+import { fadeInAnimation, sectionAnimation } from "@/utils/animations";
 
 const techList: Record<string, any>[] = [
   {
@@ -47,7 +47,6 @@ const techList: Record<string, any>[] = [
   { name: "Bootstrap", icon: <BootstrapOriginal size={36} /> },
   { name: "HTML5", icon: <Html5Original size={36} /> },
   { name: "CSS3", icon: <Css3Original size={36} /> },
-
   { name: "Firebase", icon: <FirebasePlain size={36} /> },
   { name: "Linux", icon: <LinuxOriginal size={36} /> },
 ];
@@ -64,13 +63,15 @@ export const Technologies = () => {
       </p>
       <div className="grid grid-flow-row grid-cols-2 gap-4 mx-auto max-w-screen-2xl md:grid-cols-3 lg:grid-cols-4 auto-rows-fr">
         {techList.map((item, index) => (
-          <div
+          <motion.div
+            custom={index + 0.2}
             key={index}
             className="flex items-center gap-2 p-4 overflow-auto transition duration-300 ease-in-out border rounded-md group md:text-xl md:p-8 bg-gradient-to-br border-gray-500/5 from-black via-gray-800/25 to-gray-500/25 backdrop-blur shadow-3xl hover:animate-bounce"
+            {...fadeInAnimation}
           >
             <div className="">{item.icon}</div>
             <span className="font-medium">{item.name}</span>
-          </div>
+          </motion.div>
         ))}
       </div>
     </motion.section>

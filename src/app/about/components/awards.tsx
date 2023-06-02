@@ -6,14 +6,15 @@ import customBadges from "./custom-badges.js";
 import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import clsx from "clsx";
-import { sectionAnimation } from "@/utils/animations";
+import { sectionAnimation, fadeInAnimation } from "@/utils/animations";
 
 export const Awards = () => {
   const [show, setShow] = useState(false);
   return (
     <motion.section
+      key="awards"
       {...sectionAnimation}
-      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert"
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert lg:post-lg"
     >
       <h2 className="mb-8 text-3xl font-bold md:text-4xl">
         Awards and Credentials
@@ -26,9 +27,11 @@ export const Awards = () => {
 
       <div className="grid gap-4 mx-auto text-left md:gap-8 max-w-screen-2xl md:grid-cols-2 lg:grid-cols-3 auto-cols-fr">
         {customBadges.map((item, index) => (
-          <div
+          <motion.div
+            custom={index + 0.2}
             key={index}
             className="flex items-center gap-4 p-3 transition duration-300 ease-in-out border rounded-md md:gap-6 md:p-6 group border-gray-500/25 backdrop-blur shadow-3xl"
+            {...fadeInAnimation}
           >
             <Image
               height={125}
@@ -48,14 +51,16 @@ export const Awards = () => {
                 <ChevronRight />
               </a>
             </div>
-          </div>
+          </motion.div>
         ))}
 
         {show &&
           credlyBadges.data.map((item, index) => (
-            <div
+            <motion.div
+              custom={index + 0.2}
               key={index}
               className="flex items-center gap-4 p-3 transition duration-300 ease-in-out border rounded-md md:gap-6 md:p-6 group border-gray-500/25 backdrop-blur shadow-3xl"
+              {...fadeInAnimation}
             >
               <Image
                 height={125}
@@ -77,7 +82,7 @@ export const Awards = () => {
                   <ChevronRight />
                 </a>
               </div>
-            </div>
+            </motion.div>
           ))}
 
         <div

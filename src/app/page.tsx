@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <PageAnimationWrapper layoutId="home">
       <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
-        <div className="flex flex-col self-center flex-1 gap-8 p-6 mt-20 overflow-hidden no-scrollbar sm:p-16 lg:p-20">
+        <div className="flex flex-col self-center flex-1 gap-8 p-6 mt-20 overflow-hidden no-scrollbar sm:p-16 lg:p-24">
           <motion.h1
             variants={variants}
             className="text-5xl font-extrabold tracking-wide md:text-6xl"

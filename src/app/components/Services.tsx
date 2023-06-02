@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { ReactOriginal } from "devicons-react";
 import { motion } from "framer-motion";
-import { sectionAnimation } from "src/app/utils/animations";
+import { fadeInAnimation, sectionAnimation } from "src/app/utils/animations";
 
 const services: Record<string, any>[] = [
   {
@@ -65,17 +65,23 @@ const services: Record<string, any>[] = [
   },
 ];
 
+const variants = {
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  hidden: { opacity: 0, y: -20 },
+};
+
 export const Services = () => {
   return (
     <motion.section
       id="services"
-      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert"
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%]  md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
       {...sectionAnimation}
     >
       <h2 className="mb-8 text-3xl font-bold tracking-wide md:text-4xl">
         Services
       </h2>
-      <p className="text-lg">
+
+      <p>
         From custom web development to deployments and large codebase
         migrations, here are some of the services I can offer you today. You can
         also contact me to discuss custom solutions for your specific business.
@@ -83,28 +89,30 @@ export const Services = () => {
 
       <div className="grid gap-8 my-10 text-left md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
-          <div
+          <motion.div
+            custom={index + 0.2}
             key={index}
             className={clsx(
-              "p-8 md:h-80 group flex flex-col items-start justify-end hover:h-auto transform transition-all duration-600 ease-in-out rounded-md delay-150 hover:border-b-8 hover:justify-center bg-gradient-to-br from-black via-gray-800/25 to-gray-500/25 hover:to-black hover:from-gray-500/25 md:p-8 shadow-3xl",
+              "p-5 md:h-80 group  flex flex-col items-start justify-end hover:h-auto transform transition-all duration-600 ease-in-out rounded-md delay-150 border-b-8 lg:border-b-0 lg:hover:border-b-8 hover:justify-center bg-gradient-to-br to-black via-gray-800/25 from-gray-500/25 hover:from-black hover:to-gray-500/25 md:p-8 shadow-3xl",
               service.border
             )}
+            {...fadeInAnimation}
           >
-            <div className="">{service.icon}</div>
-            <h3 className="font-semibold lg:text-xl">{service.name}</h3>
-            <p className="hidden text-base group-hover:block">{service.desc}</p>
+            <div>{service.icon}</div>
+            <h3>{service.name}</h3>
+            <p className="lg:hidden lg:group-hover:block">{service.desc}</p>
 
             <Link
               href={`/contact?service=${service.tag}&subject=${service.name}`}
               className={clsx(
-                "items-center hidden font-semibold gap-2 text-lg no-underline transition duration-300 ease-in-out delay-150 group-hover:flex group",
+                "items-center lg:hidden  gap-2 no-underline transition duration-300 ease-in-out delay-150 flex lg:group-hover:flex group-hover:animate-pulse",
                 service.text
               )}
             >
               <span>Get In Touch</span>
-              <ChevronRight className="hover:rotate-90" />
+              <ChevronRight />
             </Link>
-          </div>
+          </motion.div>
         ))}
       </div>
 

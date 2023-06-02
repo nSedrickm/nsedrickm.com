@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"], fallback: ["system-ui", "arial"] });
 export const metadata = {
   title: "Ngwa Sedrick Meh",
   description:
-    "Professional Software Engineer, Crafting amazing solutions for businesses",
+    "Freelance frontend developer, React, NextJS, Crafting amazing solutions for businesses",
   icons: {
     icon: {
       url: "/favicon.png",
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: Props) {
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
         <LayoutAnimationWrapper>
-          <div className="flex flex-col min-h-screen text-lg text-white bg-black">
+          <div className="flex flex-col max-w-full min-h-screen text-white bg-black">
             <Navbar />
             <main className="flex-1">{children}</main>
             <Footer />

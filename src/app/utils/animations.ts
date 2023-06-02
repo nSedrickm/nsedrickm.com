@@ -2,8 +2,22 @@ export const sectionAnimation = {
   initial: "hidden",
   whileInView: "visible",
   variants: {
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-    hidden: { opacity: 0, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        when: "beforeChildren",
+        staggerChildren: 0.3,
+        duration: 0.5,
+      },
+    },
+    hidden: {
+      opacity: 0,
+      scale: 0,
+      transition: {
+        when: "afterChildren",
+      },
+    },
   },
 };
 
@@ -15,5 +29,18 @@ export const heroImageAnimation = {
   variants: {
     visible: { x: 0, opacity: 1 },
     hidden: { x: "50vw", opacity: 0 },
+  },
+};
+
+export const fadeInAnimation = {
+  initial: "hidden",
+  whileInView: "visible",
+  exit: { opacity: 0 },
+  variants: {
+    visible: (i: number) => ({
+      opacity: 1,
+      transition: { duration: i + 0.3 ?? 0.3 },
+    }),
+    hidden: { opacity: 0 },
   },
 };

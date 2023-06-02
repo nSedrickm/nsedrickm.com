@@ -26,7 +26,7 @@ export const Navbar = () => {
       {/* Desktop */}
       <nav
         className={clsx(
-          "hidden lg:flex items-center justify-between z-40 px-8 sticky top-0",
+          "hidden lg:flex items-center justify-between z-40 px-8 sticky top-0 text-lg",
           {
             "lg:-mb-44": ["/", "/about"].includes(path),
           },
@@ -60,14 +60,14 @@ export const Navbar = () => {
       {/* Mobile */}
       <nav
         className={clsx(
-          "lg:hidden z-40",
+          "lg:hidden z-40 text-lg",
           (isScrolled || open) && "bg-black/40 backdrop-blur",
           open ? "fixed inset-0" : "sticky top-0"
         )}
       >
-        <div className="flex items-center justify-between p-4">
+        <div className="flex items-center justify-between p-3">
           <Logo />
-          <div className="flex items-center gap-2 sm:gap-4">
+          <div className="flex items-center gap-1.5 sm:gap-4">
             <HireMeMenu />
             <button
               className="transition duration-300 ease-in-out delay-150 appearance-none lg:hidden hover:-translate-y-1 hover:scale-110"

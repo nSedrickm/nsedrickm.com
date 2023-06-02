@@ -39,17 +39,13 @@ const Contact = async () => {
 
   return (
     <PageAnimationWrapper layoutId="contact">
-      <div className="max-w-screen-lg gap-6 p-6 mx-auto prose sm:p-16 prose-invert">
+      <div className="max-w-screen-lg p-6 mx-auto prose sm:p-16 prose-invert md:prose-lg">
         {data ? (
           <motion.div variants={variants}>
-            <motion.h1
-              variants={variants}
-              className="text-4xl font-extrabold tracking-wide md:text-5xl"
-            >
-              Thank you, {data?.name}!
-            </motion.h1>
+            <motion.h1 variants={variants}>Thank you, {data?.name}!</motion.h1>
 
-            <motion.p variants={variants} className="text-3xl">
+            <motion.p variants={variants}>
+              We can <strong className="font-bold">build better </strong>
               {"I'll"} be in touch soonest. You can also connect with me on
             </motion.p>
 
@@ -89,18 +85,13 @@ const Contact = async () => {
           </motion.div>
         ) : (
           <Fragment>
-            <motion.h1
-              variants={variants}
-              className="text-4xl font-extrabold tracking-wide md:text-5xl"
-            >
-              Contact
-            </motion.h1>
+            <motion.h1 variants={variants}>Contact</motion.h1>
 
-            <motion.p variants={variants} className="mb-0 text-3xl">
+            <motion.p variants={variants}>
               Wohoo! {"Let's"} make things happen. {"I'd"} love to hear from you
             </motion.p>
 
-            <motion.p variants={variants} className="mt-1 text-2xl">
+            <motion.p variants={variants}>
               Please fill out the form below or send an email to{" "}
               <a
                 href="mailto:hello@nsedrickm.com"
@@ -113,7 +104,7 @@ const Contact = async () => {
             {error && (
               <motion.div
                 variants={variants}
-                className="p-2 text-lg bg-red-500 rounded-md prose-p:my-1"
+                className="p-2 bg-red-500 rounded-md prose-p:my-1"
               >
                 <motion.p variants={variants}>
                   Sorry, An error occured. Please try again.

@@ -10,15 +10,12 @@ const variants = {
 const Resume = () => {
   return (
     <PageAnimationWrapper layoutId="contact">
-      <div className="max-w-screen-lg gap-6 p-6 mx-auto text-lg prose sm:p-16 prose-invert">
-        <motion.h1
-          variants={variants}
-          className="text-4xl font-extrabold tracking-wide md:text-5xl"
-        >
+      <div className="max-w-screen-lg p-6 mx-auto prose sm:p-16 prose-invert md:prose-lg">
+        <motion.h1 variants={variants} className="">
           Resume
         </motion.h1>
 
-        <motion.p variants={variants} className="mb-0 text-2xl">
+        <motion.p variants={variants} className="mb-0">
           4+ years as a frontend engineer working with companies in the software
           engineering industry
         </motion.p>
@@ -27,7 +24,7 @@ const Resume = () => {
           <div className="container">
             <div className="row">
               <div className="">
-                <h2 className="text-3xl">Professional Experience</h2>
+                <h2 className="">Professional Experience</h2>
                 <div className="resume-item">
                   <h3 className="">ReactJS Developer</h3>
                   <h4 className="font-mono text-gray-500">01/2023 - Present</h4>
@@ -101,7 +98,7 @@ const Resume = () => {
               </div>
 
               <div className="">
-                <h2 className="text-3xl">Freelance Experience</h2>
+                <h2 className="">Freelance Experience</h2>
                 <div className="resume-item">
                   <h3 className="">FullStack Engineer</h3>
                   <h4 className="font-mono text-gray-500">05/2021 - 08/2021</h4>
@@ -118,7 +115,7 @@ const Resume = () => {
                   </ul>
                 </div>
 
-                <h2 className="text-3xl">Education</h2>
+                <h2 className="">Education</h2>
                 <div className="resume-item">
                   <h3 className="">Bachelors of Technology</h3>
                   <h4 className="font-mono text-gray-500">2017 - 2020</h4>

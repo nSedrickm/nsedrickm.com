@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 import { motion } from "framer-motion";
-import { sectionAnimation } from "../utils/animations";
+import { fadeInAnimation, sectionAnimation } from "../utils/animations";
 import img1 from "src/app/images/testimonials/img-1.png";
 import img2 from "src/app/images/testimonials/img-2.png";
 import img3 from "src/app/images/testimonials/img-3.png";
@@ -30,18 +30,18 @@ export const Testimonials = () => {
   return (
     <motion.section
       {...sectionAnimation}
-      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert"
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] md:my-40 md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
     >
       <h2 className="mb-8 text-3xl font-bold tracking-wide md:text-4xl">
         Testimonials
       </h2>
-      <p className="text-lg">
+      <p>
         I am commited to providing the best service possible to my clients. Here
         are some of the reviews I have received from my clients on Upwork.
       </p>
 
       <div className="relative flex items-center justify-center gap-2 my-10 mb-10 ">
-        <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full left-32 md:static md:left-20 place-items-center backdrop-blur">
+        <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full left-24 md:static md:left-20 place-items-center backdrop-blur">
           <ChevronLeft
             role="button"
             className="w-10 h-10 p-2 text-black bg-white rounded-full md:w-12 md:h-12 md:p-3"
@@ -53,9 +53,11 @@ export const Testimonials = () => {
           ref={conRef}
         >
           {reviews.map((item, index) => (
-            <div
+            <motion.div
+              custom={index + 0.2}
               key={index}
               className="relative flex-none h-52 rounded-md md:h-72 group shadow-3xl w-[20rem] md:w-[30rem] shadow-3xl snap-start"
+              {...fadeInAnimation}
             >
               <Image
                 fill
@@ -64,11 +66,11 @@ export const Testimonials = () => {
                 alt="upwork review"
                 className="object-contain p-0 m-0"
               />
-            </div>
+            </motion.div>
           ))}
         </div>
 
-        <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full right-32 md:static md:right-20 place-items-center backdrop-blur">
+        <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full right-24 md:static md:right-20 place-items-center backdrop-blur">
           <ChevronRight
             role="button"
             className="w-10 h-10 p-2 text-black bg-white rounded-full md:w-12 md:h-12 md:p-3"

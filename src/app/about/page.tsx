@@ -15,20 +15,20 @@ const variants = {
 const About = () => {
   return (
     <PageAnimationWrapper layoutId="about">
-      <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
-        <div className="flex flex-col self-center flex-1 gap-6 p-6 text-gray-300 sm:p-16 lg:p-20">
+      <header className="flex flex-col max-w-full prose lg:flex-row col-span-full prose-invert md:prose-lg">
+        <div className="flex flex-col flex-1 p-6 sm:p-16 lg:p-24 lg:pt-44">
           <motion.h1
             variants={variants}
-            className="text-3xl font-extrabold tracking-wide text-white md:text-4xl"
+            className="m-0 text-3xl font-extrabold tracking-wide md:text-4xl"
           >
-            About Me
+            About
           </motion.h1>
-          <motion.h2
+          <motion.strong
             variants={variants}
-            className="text-4xl font-light leading-tight text-white md:text-5xl"
+            className="text-4xl font-light leading-tight  md:text-5xl"
           >
             Ngwa Sedrick Meh
-          </motion.h2>
+          </motion.strong>
 
           <motion.p variants={variants}>
             Ngwa Sedrick Meh is a freelance software developer with a passion
