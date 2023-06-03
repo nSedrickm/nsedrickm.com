@@ -1,10 +1,21 @@
 import { ReactNode } from "react";
-import { Inter } from "next/font/google";
 import { Navbar, Footer, LayoutAnimationWrapper } from "@/components";
-
+import { Unica_One, Crimson_Text } from "next/font/google";
+import clsx from "clsx";
+import ErrorBoundary from "./components/ErrorBoundary";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], fallback: ["system-ui", "arial"] });
+const headingFont = Unica_One({
+  subsets: ["latin", "latin-ext"],
+  weight: "400",
+  variable: "--font-heading",
+});
+
+const bodyFont = Crimson_Text({
+  subsets: ["latin", "latin-ext"],
+  weight: "400",
+  variable: "--font-body",
+});
 
 export const metadata = {
   title: "Ngwa Sedrick Meh",
@@ -25,14 +36,19 @@ interface Props {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>
+    <html
+      lang="en"
+      className={clsx(headingFont.variable, bodyFont.variable, "scroll-smooth")}
+    >
+      <body>
         <LayoutAnimationWrapper>
-          <div className="flex flex-col max-w-full min-h-screen text-white bg-black">
-            <Navbar />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </div>
+          <ErrorBoundary>
+            <div className="flex flex-col max-w-full min-h-screen text-white bg-black">
+              <Navbar />
+              <main className="flex-1">{children}</main>
+              <Footer />
+            </div>
+          </ErrorBoundary>
         </LayoutAnimationWrapper>
       </body>
     </html>

@@ -15,26 +15,32 @@ const variants = {
 const Home = () => {
   return (
     <PageAnimationWrapper layoutId="home">
-      <header className="flex flex-col space-y-8 lg:flex-row col-span-full">
-        <div className="flex flex-col self-center flex-1 gap-8 p-6 mt-20 overflow-hidden no-scrollbar sm:p-16 lg:p-24">
-          <motion.h1
-            variants={variants}
-            className="text-5xl font-extrabold tracking-wide md:text-6xl"
-          >
+      <header className="flex flex-col max-w-full space-y-8 prose lg:flex-row col-span-full prose-invert md:prose-lg prose-a:no-underline prose-p:my-4 prose-headings:font-heading">
+        <div className="flex flex-col self-center flex-1 p-6 mt-20 overflow-hidden no-scrollbar sm:p-16 lg:p-24">
+          <motion.h1 variants={variants} className="font-heading">
             Welcome!
           </motion.h1>
           <motion.p
             variants={variants}
-            className="text-2xl font-light leading-normal md:text-5xl"
+            className="text-2xl font-light md:text-4xl"
           >
-            My name is <strong className="font-semibold">Sedrick</strong> and I
-            build and maintain web applications
+            {"I'm "}
+            <strong className="font-semibold">Sedrick</strong> a frontend
+            software developer. I build and maintain web applications.
+          </motion.p>
+
+          <motion.p
+            variants={variants}
+            className="text-2xl font-light md:text-4xl"
+          >
+            It is my mission to bring value to the teams I work with and develop
+            solutions that delight my clients.
           </motion.p>
 
           <motion.span variants={variants} className="self-start">
             <Link
               href="#services"
-              className="flex items-center underline-offset-[1rem] gap-2 border-b py-3 border-white text-xl  transition duration-300 ease-in-out delay-150 md:text-2xl group"
+              className="flex items-center underline-offset-[1rem] gap-2 border-b py-3 border-white text-xl  transition duration-300 ease-in-out delay-150  group"
             >
               <span>Learn more</span>
               <ArrowRight size={24} />

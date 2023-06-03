@@ -17,6 +17,10 @@ module.exports = {
         "4xl": "2560px",
         "5xl": "3840px",
       },
+      fontFamily: {
+        sans: ["var(--font-body)", "sans-serif"],
+        heading: ["var(--font-heading)", "sans-serif"],
+      },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
