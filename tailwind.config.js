@@ -20,6 +20,7 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-body)", "sans-serif"],
         heading: ["var(--font-heading)", "sans-serif"],
+        cursive: ["var(--font-cursive)", "sans-serif"],
       },
     },
   },

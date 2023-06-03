@@ -19,13 +19,13 @@ const About = () => {
         <div className="flex flex-col flex-1 p-6 sm:p-16 lg:p-24 lg:pt-44">
           <motion.h1
             variants={variants}
-            className="m-0 text-3xl font-extrabold tracking-wide md:text-4xl"
+            className="my-2 text-3xl font-extrabold tracking-wide md:text-4xl"
           >
             About
           </motion.h1>
           <motion.strong
             variants={variants}
-            className="text-4xl font-light leading-tight  md:text-5xl"
+            className="text-4xl font-light leading-tight md:text-5xl"
           >
             Ngwa Sedrick Meh
           </motion.strong>
@@ -55,11 +55,16 @@ const About = () => {
             growth, he actively participates in his local developer community
             and joins conversations on social hubs.
           </motion.p>
+
+          <motion.p variants={variants} className="text-4xl font-cursive">
+            nsedrickm
+          </motion.p>
         </div>
         <motion.div {...heroImageAnimation} className="relative flex-1">
           <Image
+            priority
             src={headerBg}
-            alt="header banner"
+            alt="image of Ngwa Sedrick Meh"
             className="block object-contain w-full shadow-xl"
           />
         </motion.div>
@@ -72,7 +77,7 @@ const About = () => {
       <div className="flex justify-center my-20">
         <Link
           href="/contact"
-          className="px-8 py-4 font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse hover:-translate-y-1 hover:scale-110"
+          className="px-8 py-4 text-2xl font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse hover:-translate-y-1 hover:scale-110"
         >
           Get In Touch
         </Link>

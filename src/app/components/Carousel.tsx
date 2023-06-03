@@ -44,6 +44,7 @@ export const Carousel = ({ images }: Props) => {
         src={images[index]}
         alt="carousel image"
         className="object-fill w-full h-full p-0 m-0 rounded-lg aspect-auto"
+        sizes="(max-width: 768px) 15rem, (min-width: 768px) 25rem, (min-width: 1280px) 42rem, (min-width: 2560px) 55rem"
       />
       <div className="absolute inset-0 flex items-end justify-center gap-3 pb-2 md:pb-4 bg-gradient-to-b from-transparent via-transparent to-black/40">
         <button

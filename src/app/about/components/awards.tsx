@@ -7,38 +7,51 @@ import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import clsx from "clsx";
 import { sectionAnimation, fadeInAnimation } from "@/utils/animations";
+import { NextPage } from "next";
 
-export const Awards = () => {
+const variants = {
+  visible: { opacity: 1, y: 0, transition: { duration: 0.2 } },
+  hidden: { opacity: 0, y: -20 },
+};
+
+export const Awards: NextPage = () => {
   const [show, setShow] = useState(false);
   return (
     <motion.section
+      layout
       key="awards"
       {...sectionAnimation}
       className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert lg:post-lg"
     >
-      <h2 className="mb-8 text-3xl font-bold md:text-4xl">
+      <motion.h2
+        variants={variants}
+        className="mb-8 text-3xl font-bold md:text-4xl"
+      >
         Awards and Credentials
-      </h2>
-      <p className="text-lg">
+      </motion.h2>
+      <motion.p variants={variants} className="text-lg">
         I have participated in serveral programs over the years earning some
         credentials along the way. I am most grateful for the journey and
         experiences, the people I met and the things I learned.
-      </p>
+      </motion.p>
 
       <div className="grid gap-4 mx-auto text-left md:gap-8 max-w-screen-2xl md:grid-cols-2 lg:grid-cols-3 auto-cols-fr">
         {customBadges.map((item, index) => (
           <motion.div
             custom={index + 0.2}
             key={index}
-            className="flex items-center gap-4 p-3 transition duration-300 ease-in-out border rounded-md md:gap-6 md:p-6 group border-gray-500/25 backdrop-blur shadow-3xl"
+            className="flex flex-col gap-6 p-4 transition duration-300 ease-in-out border rounded-md md:flex-row md:gap-6 md:p-6 group border-gray-500/30 backdrop-blur shadow-3xl"
             {...fadeInAnimation}
           >
-            <Image
-              height={125}
-              width={125}
-              src={item.image_url}
-              alt={item.name}
-            />
+            <div className="relative  h-[100px] md:h-full w-[100px] md:w-[125px]">
+              <Image
+                fill
+                src={item.image_url}
+                alt={item.name}
+                sizes="(max-width: 768px) 100px, (min-width: 768px) 125px"
+                className="object-contain p-0 m-0 aspect-auto"
+              />
+            </div>
             <div className="">
               <h3 className="inline font-medium">{item.name}</h3>
               <p className="text-gray-400">{item.issuer}</p>
@@ -59,15 +72,18 @@ export const Awards = () => {
             <motion.div
               custom={index + 0.2}
               key={index}
-              className="flex items-center gap-4 p-3 transition duration-300 ease-in-out border rounded-md md:gap-6 md:p-6 group border-gray-500/25 backdrop-blur shadow-3xl"
+              className="flex flex-col gap-6 p-4 transition duration-300 ease-in-out border rounded-md md:flex-row md:gap-6 md:p-6 group border-gray-500/30 backdrop-blur shadow-3xl"
               {...fadeInAnimation}
             >
-              <Image
-                height={125}
-                width={125}
-                src={item.image_url}
-                alt={item.badge_template.name}
-              />
+              <div className="relative  h-[100px] md:h-full w-[100px] md:w-[125px]">
+                <Image
+                  fill
+                  src={item.image_url}
+                  alt={item.badge_template.name}
+                  sizes="(max-width: 768px) 100px, (min-width: 768px) 125px"
+                  className="object-contain p-0 m-0 aspect-auto"
+                />
+              </div>
               <div className="">
                 <h3 className="inline font-medium">
                   {item.badge_template.name}

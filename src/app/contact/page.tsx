@@ -44,8 +44,9 @@ const Contact = async () => {
           <motion.div variants={variants}>
             <motion.h1 variants={variants}>Thank you, {data?.name}!</motion.h1>
 
-            <motion.p variants={variants}>
-              We can <strong className="font-bold">build better </strong>
+            <motion.p variants={variants} className="text-2xl">
+              We can{" "}
+              <strong className="font-bold font-cursive">build better</strong>.
               {"I'll"} be in touch soonest. You can also connect with me on
             </motion.p>
 

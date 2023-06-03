@@ -43,7 +43,7 @@ export const Testimonials = () => {
       >
         Testimonials
       </motion.h2>
-      
+
       <motion.p variants={variants}>
         I am commited to providing the best service possible to my clients. Here
         are some of the reviews I have received from my clients on Upwork.
@@ -70,10 +70,12 @@ export const Testimonials = () => {
             >
               <Image
                 fill
+                priority
                 key={index}
                 src={item}
                 alt="upwork review"
                 className="object-contain p-0 m-0"
+                sizes="(max-width: 768px) 20rem, (min-width: 768px) 30rem"
               />
             </motion.div>
           ))}

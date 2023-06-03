@@ -50,15 +50,16 @@ const Home = () => {
 
         <motion.div {...heroImageAnimation} className="relative flex-1">
           <Image
+            priority
             src={headerBg}
-            alt="header banner"
+            alt="image of Ngwa Sedrick Meh"
             className="block object-contain w-full shadow-xl"
           />
         </motion.div>
       </header>
 
-      {/* <Services /> */}
-      {/* <Testimonials /> */}
+      <Services />
+      <Testimonials />
     </PageAnimationWrapper>
   );
 };
