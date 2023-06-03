@@ -27,18 +27,27 @@ export const Testimonials = () => {
     }
   }
 
+  const variants = {
+    visible: { opacity: 1, y: 0, transition: { duration: 0.2 } },
+    hidden: { opacity: 0, y: -20 },
+  };
+
   return (
     <motion.section
       {...sectionAnimation}
       className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] md:my-40 md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
     >
-      <h2 className="mb-8 text-3xl font-bold tracking-wide md:text-4xl">
+      <motion.h2
+        variants={variants}
+        className="mb-8 text-3xl font-bold tracking-wide md:text-4xl"
+      >
         Testimonials
-      </h2>
-      <p>
+      </motion.h2>
+      
+      <motion.p variants={variants}>
         I am commited to providing the best service possible to my clients. Here
         are some of the reviews I have received from my clients on Upwork.
-      </p>
+      </motion.p>
 
       <div className="relative flex items-center justify-center gap-2 my-10 mb-10 ">
         <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full left-24 md:static md:left-20 place-items-center backdrop-blur">

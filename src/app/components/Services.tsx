@@ -66,7 +66,7 @@ const services: Record<string, any>[] = [
 ];
 
 const variants = {
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.2 } },
   hidden: { opacity: 0, y: -20 },
 };
 
@@ -77,15 +77,18 @@ export const Services = () => {
       className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%]  md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
       {...sectionAnimation}
     >
-      <h2 className="mb-8 text-3xl font-bold tracking-wide md:text-4xl">
+      <motion.h2
+        variants={variants}
+        className="mb-8 text-3xl font-bold tracking-wide md:text-4xl"
+      >
         Services
-      </h2>
+      </motion.h2>
 
-      <p>
+      <motion.p variants={variants}>
         From custom web development to deployments and large codebase
         migrations, here are some of the services I can offer you today. You can
         also contact me to discuss custom solutions for your specific business.
-      </p>
+      </motion.p>
 
       <div className="grid gap-8 my-10 text-left md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (

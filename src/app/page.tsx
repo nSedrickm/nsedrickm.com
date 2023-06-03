@@ -14,10 +14,11 @@ const variants = {
 
 const Home = () => {
   return (
-    <PageAnimationWrapper layoutId="home">
+    // <PageAnimationWrapper layoutId="home">
+    <>
       <header className="flex flex-col max-w-full space-y-8 prose lg:flex-row col-span-full prose-invert md:prose-lg prose-a:no-underline prose-p:my-4 prose-headings:font-heading">
         <div className="flex flex-col self-center flex-1 p-6 mt-20 overflow-hidden no-scrollbar sm:p-16 lg:p-24">
-          <motion.h1 variants={variants} className="font-heading">
+          <motion.h1 variants={variants} className="">
             Welcome!
           </motion.h1>
           <motion.p
@@ -33,7 +34,7 @@ const Home = () => {
             variants={variants}
             className="text-2xl font-light md:text-4xl"
           >
-            It is my mission to bring value to the teams I work with and develop
+            I am a force multiplier on the teams I work with and develop
             solutions that delight my clients.
           </motion.p>
 
@@ -58,7 +59,8 @@ const Home = () => {
 
       <Services />
       <Testimonials />
-    </PageAnimationWrapper>
+    </>
+    // </PageAnimationWrapper>
   );
 };
 
