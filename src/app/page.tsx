@@ -14,10 +14,9 @@ const variants = {
 
 const Home = () => {
   return (
-    // <PageAnimationWrapper layoutId="home">
-    <>
+    <PageAnimationWrapper layoutId="home">
       <header className="flex flex-col max-w-full space-y-8 prose lg:flex-row col-span-full prose-invert md:prose-lg prose-a:no-underline prose-p:my-4 prose-headings:font-heading">
-        <div className="flex flex-col self-center flex-1 p-6 mt-20 overflow-hidden no-scrollbar sm:p-16 lg:p-24">
+        <div className="flex flex-col self-center flex-1 p-6 mt-20 overflow-hidden no-scrollbar sm:p-16 lg:p-24 3xl:p-36">
           <motion.h1 variants={variants} className="">
             Welcome!
           </motion.h1>
@@ -48,6 +47,7 @@ const Home = () => {
             </Link>
           </motion.span>
         </div>
+
         <motion.div {...heroImageAnimation} className="relative flex-1">
           <Image
             src={headerBg}
@@ -57,10 +57,9 @@ const Home = () => {
         </motion.div>
       </header>
 
-      <Services />
-      <Testimonials />
-    </>
-    // </PageAnimationWrapper>
+      {/* <Services /> */}
+      {/* <Testimonials /> */}
+    </PageAnimationWrapper>
   );
 };
 

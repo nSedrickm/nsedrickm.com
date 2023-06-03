@@ -47,7 +47,7 @@ const Portfolio = () => {
                 <h2 className="mt-1 mb-4">{project.title}</h2>
               </div>
 
-              <Carousel images={project.images} />
+              {/* <Carousel images={project.images} /> */}
 
               <p className="my-6">{project.description}</p>
 
