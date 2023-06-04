@@ -18,7 +18,7 @@ const services: Record<string, any>[] = [
     tag: "react-dev",
     name: "React App Development",
     icon: <ReactOriginal size={56} />,
-    desc: "I can help you build stunning React Applications that will WOW your users. These includes data heavy applications like admin and user dashboards, back offices, SPAs and so much more",
+    desc: "Looking to create a visually stunning and highly functional React application? Look no further! I specialize in building data-rich applications such as admin and user dashboards, back offices, SPAs and much more. Let me help you WOW your users with an exceptional React app.",
     border: "border-sky-400",
     text: "text-sky-400",
   },
@@ -26,7 +26,7 @@ const services: Record<string, any>[] = [
     tag: "consultation",
     name: "Project Consultation",
     icon: <FileCode size={52} className="text-amber-500" />,
-    desc: "Looking to start a new project but don't have all the details dialed in yet? Join me on a call and we'll sort it out together",
+    desc: "Have a new project in mind but need help ironing out the details? Let’s hop on a call and work through it together. With my expertise and guidance, we’ll have your project planned out in no time.",
     border: "border-amber-500",
     text: "text-amber-500",
   },
@@ -35,7 +35,7 @@ const services: Record<string, any>[] = [
     tag: "prog-and-debug",
     name: "Peer Programing & Debugging",
     icon: <Users size={52} className="text-red-500" />,
-    desc: "Sometimes you get stuck and just need a guide to help you figure out and resolve code bugs. I love these sessions",
+    desc: "Stuck on a tricky coding problem? Let me lend a helping hand. I love working through code bugs and helping others find solutions. Join me for a peer programming and debugging session and let’s tackle that issue together.",
     border: "border-red-500",
     text: "text-red-500",
   },
@@ -43,7 +43,7 @@ const services: Record<string, any>[] = [
     tag: "feature-customization",
     name: "Feature Updates & Theme Customization",
     icon: <Paintbrush size={52} className="text-green-500" />,
-    desc: "Need a new feature added to your app/website or just bought a new theme/template from themeforest and need it customized for your brand? I'm the man for the job",
+    desc: "Need to add a new feature to your app or website? Want to customize a theme or template to fit your brand? Look no further! I’m the man for the job. Let me help you enhance your digital presence with my feature update and theme customization services.",
     border: "border-green-500",
     text: "text-green-500",
   },
@@ -51,7 +51,7 @@ const services: Record<string, any>[] = [
     tag: "web-dev",
     name: "Web Development",
     icon: <LayoutDashboard size={52} className="text-indigo-500" />,
-    desc: "Need a professional website for your business, event or community. Theres a thousand ways to build a website but I can make one thats just right for you",
+    desc: "In need of a professional website for your business, event or community? Look no further! With my web development expertise, I can create a website that’s tailored to your unique needs and perfectly represents your brand.",
     border: "border-indigo-500",
     text: "text-indigo-500",
   },
@@ -59,7 +59,7 @@ const services: Record<string, any>[] = [
     tag: "hosting-deployments",
     name: "Deployments & Web Hosting",
     icon: <CloudCog size={52} className="text-blue-700" />,
-    desc: "Setting up apps and websites can be a real pain. Choosing the best hosting service, setting up a domain name, configuring a cloud service and so much more. Let me handle all that for you",
+    desc: "Setting up apps and websites can be a headache. From choosing the right hosting service to configuring cloud services and more, there’s a lot to consider. Let me take the hassle out of the process for you. With my deployment and web hosting services, you can sit back and relax while I handle everything.",
     border: "border-blue-700",
     text: "text-blue-700",
   },
@@ -73,6 +73,7 @@ const variants = {
 export const Services = () => {
   return (
     <motion.section
+      layout
       id="services"
       className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%]  md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
       {...sectionAnimation}
@@ -85,9 +86,10 @@ export const Services = () => {
       </motion.h2>
 
       <motion.p variants={variants}>
-        From custom web development to deployments and large codebase
-        migrations, here are some of the services I can offer you today. You can
-        also contact me to discuss custom solutions for your specific business.
+        Boost your digital strategy with my premium web development services. I
+        provide custom development, smooth deployments and large-scale codebase
+        migrations for businesses and individuals alike. Contact me today to
+        explore tailor-made solutions that cater to your unique demands.
       </motion.p>
 
       <div className="grid gap-8 my-10 text-left md:grid-cols-2 lg:grid-cols-3">

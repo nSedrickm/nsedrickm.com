@@ -7,7 +7,6 @@ export const sectionAnimation = {
       scale: 1,
       transition: {
         when: "beforeChildren",
-        staggerChildren: 0.3,
         duration: 0.5,
       },
     },

@@ -23,9 +23,9 @@ const Portfolio = () => {
           </motion.h1>
 
           <motion.p variants={variants}>
-            {"I've"} had the opportunity to work on some interesting projects. I
-            find it extremely fulfilling to create solutions and bring ideas to
-            life through colaboration
+            My portfolio features a blend of professional and personal projects.
+            From working on exciting collaborations to experimenting with new
+            ideas in my free time
           </motion.p>
         </header>
 

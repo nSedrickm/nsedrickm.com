@@ -34,6 +34,7 @@ export const Testimonials = () => {
 
   return (
     <motion.section
+      layout
       {...sectionAnimation}
       className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] md:my-40 md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
     >
@@ -45,8 +46,10 @@ export const Testimonials = () => {
       </motion.h2>
 
       <motion.p variants={variants}>
-        I am commited to providing the best service possible to my clients. Here
-        are some of the reviews I have received from my clients on Upwork.
+        Testimonials: My commitment to providing top-notch service is reflected
+        in the glowing reviews I’ve received from my clients on Upwork. Don’t
+        just take my word for it - read what my satisfied customers have to say
+        about their experiences working with me.
       </motion.p>
 
       <div className="relative flex items-center justify-center gap-2 my-10 mb-10 ">

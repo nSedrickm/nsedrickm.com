@@ -25,16 +25,17 @@ const Home = () => {
             className="text-2xl font-light md:text-4xl"
           >
             {"I'm "}
-            <strong className="font-semibold">Sedrick</strong> a frontend
-            software developer. I build and maintain web applications.
+            <strong className="font-semibold">Sedrick</strong> and I specialize
+            in frontend software development. I create and manage web
+            applications.
           </motion.p>
 
           <motion.p
             variants={variants}
             className="text-2xl font-light md:text-4xl"
           >
-            I am a force multiplier on the teams I work with and develop
-            solutions that delight my clients.
+            I enhance the productivity of the teams I collaborate with and
+            deliver solutions that exceed my clients’ expectations
           </motion.p>
 
           <motion.span variants={variants} className="self-start">
