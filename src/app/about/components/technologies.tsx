@@ -60,7 +60,7 @@ export const Technologies = () => {
   return (
     <motion.section
       {...sectionAnimation}
-      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert md:prose-lg min-h-screen"
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
     >
       <motion.h2
         variants={variants}
@@ -71,7 +71,7 @@ export const Technologies = () => {
       <motion.p variants={variants} className="text-lg">
         Some of my tools, coupled with the ability to learn new ones on the fly
       </motion.p>
-      
+
       <div className="grid grid-flow-row grid-cols-2 gap-4 mx-auto max-w-screen-2xl md:grid-cols-3 lg:grid-cols-4 auto-rows-fr">
         {techList.map((item, index) => (
           <motion.div

@@ -21,7 +21,7 @@ export const Awards: NextPage = () => {
       layout
       key="awards"
       {...sectionAnimation}
-      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert lg:post-lg min-h-screen"
+      className="p-6 mx-auto my-20 lg:mb-80 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert lg:post-lg "
     >
       <motion.h2
         variants={variants}

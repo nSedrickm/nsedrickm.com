@@ -74,7 +74,7 @@ const About = () => {
 
       <Technologies />
 
-      <div className="flex justify-center my-20">
+      <div className="flex justify-center mt-20 mb-40">
         <Link
           href="/contact"
           className="px-8 py-4 text-2xl font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:animate-none animate-pulse hover:-translate-y-1 hover:scale-110"
