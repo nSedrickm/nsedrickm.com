@@ -36,7 +36,7 @@ export const Testimonials = () => {
     <motion.section
       layout
       {...sectionAnimation}
-      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] md:my-40 md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] md:my-40 md:scroll-mt-5 md:text-center prose-invert md:prose-lg min-h-screen"
     >
       <motion.h2
         variants={variants}
@@ -52,7 +52,7 @@ export const Testimonials = () => {
         about their experiences working with me.
       </motion.p>
 
-      <div className="relative flex items-center justify-center gap-2 my-10 mb-10 ">
+      <div className="relative flex items-center justify-center gap-2 my-10">
         <div className="absolute bottom-0 z-10 grid p-2 translate-y-1 rounded-full left-24 md:static md:left-20 place-items-center backdrop-blur">
           <ChevronLeft
             role="button"
@@ -93,7 +93,7 @@ export const Testimonials = () => {
         </div>
       </div>
 
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center my-20">
         <Link
           href="/contact?service=upwork" // href="https://www.upwork.com/freelancers/~010a12bb6327f60ed1"
           className="p-4 font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md hover:bg-blue-700 hover:text-white md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110"

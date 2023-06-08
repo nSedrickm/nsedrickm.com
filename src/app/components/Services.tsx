@@ -75,7 +75,7 @@ export const Services = () => {
     <motion.section
       layout
       id="services"
-      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%]  md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%]  md:scroll-mt-5 md:text-center prose-invert md:prose-lg min-h-screen flex flex-col items-center justify-center"
       {...sectionAnimation}
     >
       <motion.h2
@@ -92,7 +92,7 @@ export const Services = () => {
         explore tailor-made solutions that cater to your unique demands.
       </motion.p>
 
-      <div className="grid gap-8 my-10 text-left md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-12 my-10 text-left md:grid-cols-2 lg:grid-cols-3">
         {services.map((service, index) => (
           <motion.div
             custom={index + 0.2}
@@ -121,7 +121,7 @@ export const Services = () => {
         ))}
       </div>
 
-      <div className="flex justify-center my-10">
+      <div className="flex justify-center my-20">
         <Link
           href="/contact?subject=I need a custom service"
           className="p-4 font-bold text-black no-underline transition duration-300 ease-in-out delay-150 bg-white rounded-md md:py-4 md:px-8 hover:-translate-y-1 hover:scale-110"

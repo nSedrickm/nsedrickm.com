@@ -1,4 +1,6 @@
-export const sectionAnimation = {
+import { MotionProps } from "framer-motion";
+
+export const sectionAnimation: MotionProps = {
   initial: "hidden",
   whileInView: "visible",
   variants: {
@@ -8,19 +10,21 @@ export const sectionAnimation = {
       transition: {
         when: "beforeChildren",
         duration: 0.5,
+        staggerChildren: 0.5,
       },
     },
     hidden: {
       opacity: 0,
-      scale: 0,
+      scale: 0.75,
       transition: {
         when: "afterChildren",
+        duration: 0.5,
       },
     },
   },
 };
 
-export const heroImageAnimation = {
+export const heroImageAnimation: MotionProps = {
   //   initial: "hidden",
   //   animate: "visible", enabling these two make the animations come in alot faster lets try to understand why later
   transition: { duration: 0.5 },
@@ -31,7 +35,7 @@ export const heroImageAnimation = {
   },
 };
 
-export const fadeInAnimation = {
+export const fadeInAnimation: MotionProps = {
   initial: "hidden",
   whileInView: "visible",
   exit: { opacity: 0 },

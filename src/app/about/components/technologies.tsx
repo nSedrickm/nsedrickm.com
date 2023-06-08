@@ -60,7 +60,7 @@ export const Technologies = () => {
   return (
     <motion.section
       {...sectionAnimation}
-      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert md:prose-lg"
+      className="p-6 mx-auto my-20 prose max-w-full lg:max-w-[85%] scroll-mt-20 md:scroll-mt-5 md:text-center prose-invert md:prose-lg min-h-screen"
     >
       <motion.h2
         variants={variants}
