@@ -46,7 +46,7 @@ export const Testimonials = () => {
       </motion.h2>
 
       <motion.p variants={variants}>
-        Testimonials: My commitment to providing top-notch service is reflected
+        My commitment to providing top-notch service is reflected
         in the glowing reviews I’ve received from my clients on Upwork. Don’t
         just take my word for it - read what my satisfied customers have to say
         about their experiences working with me.
