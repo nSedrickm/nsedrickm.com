@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sedrick M. | Senior Full-Stack Engineering Showroom
 
-## Getting Started
+This repository contains the complete frontend architecture and source code for my professional portfolio and engineering showroom: **[nsedrickm.com](https://nsedrickm.com)**.
+---
 
-First, run the development server:
+## 🎯 Purpose & Engineering Objectives
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+This repository goes beyond a standard personal site. It is designed to prove four core senior engineering competencies to technical stakeholders:
+
+1.  **Proof of Technical Execution:** Demonstration of clean, modular, and self-documenting React code structures.
+2.  **Performance Engineering:** Real-world execution of Core Web Vitals optimization, asset compression, and efficient bundle sizes.
+3.  **Architectural Case Study Hub:** A centralized, live-rendered archive detailing the system designs, problem statements, and outcomes of my past enterprise engineering roles.
+4.  **Production Readiness:** Implementation of clean Git workflows, robust configuration management, and professional project hygiene.
+
+---
+
+## 🛠️ Technical Architecture & Stack
+
+The site is built to be lightweight, incredibly fast, and easy to scale as I add deeper case studies of my work.
+
+*   **Core Architecture:** React.js (Component-driven development)
+*   **Design System & Styling:** Tailwind CSS (Utility-first tokens for strict responsive scaling)
+*   **Build Automation:** Vite (For lightning-fast Hot Module Replacement and optimized chunk splitting)
+*   **Deployment Pipeline:** Automated CI/CD edge hosting for instant global content delivery
+
+---
+
+## 💎 Key Implementation Highlights
+
+### 🚀 Performance Optimization & Paint Speeds
+*   **Zero Layout Shifts:** Engineered with strict container boundaries and asset loading strategies to eliminate Cumulative Layout Shift (CLS).
+*   **Asset Pipeline:** Images and vector graphics are compressed and optimized for next-gen web delivery to keep First Contentful Paint (FCP) sub-second.
+*   **Bundle Efficiency:** Leverages dependency tree-shaking via Vite to ensure clients download only the minimal required JavaScript payload.
+
+### 📱 Responsive Fidelity & Semantic UX
+*   **Fluid Breakpoints:** Uses Tailwind’s design tokens alongside advanced CSS Grid layouts to ensure pixel-perfect rendering from mobile viewports up to ultra-wide desktop monitors.
+*   **Semantic Integrity:** Built using strict semantic HTML5 tags (`<section>`, `<article>`, `<header>`) rather than generic structural containers, facilitating optimal SEO indexing and screen-reader accessibility (a11y).
+
+---
+
+## 📂 Repository Layout
+
+```text
+├── public/             # Static production assets, favicons, and manifest files
+├── src/
+│   ├── components/     # Modular, reusable UI components (Layout, Cards, Buttons)
+│   ├── assets/         # Optimized global styles, vector iconography, and imagery
+│   ├── data/           # Structured JSON arrays holding project details & professional history
+│   ├── App.jsx         # Component composition and structural setup
+│   └── main.jsx        # DOM entry point and initialization
+├── package.json        # Managed dependencies and automated build/run scripts
+└── tailwind.config.js  # Customized design system tokens (colors, spacing, viewport overrides)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔧 Local Development & Building
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+To clone the workspace and inspect the component implementation locally, ensure you have [Node.js](https://nodejs.org) installed.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   cd nsedrickm.com
+   ```
 
-## Learn More
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Start the local development server:**
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Compile an optimized, minified production build bundle:**
+   ```bash
+   npm run build
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✉️ Enterprise & Contract Inquiries
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you are a technical recruiter, hiring manager, or Enterprise platform scout evaluating my capabilities:
+*   Review the code structure in `/src` to evaluate my pattern paradigms.
+*   Check the live case studies directly at [nsedrickm.com](https://nsedrickm.com).
